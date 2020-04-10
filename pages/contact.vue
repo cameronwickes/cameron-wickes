@@ -7,7 +7,8 @@
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
-      <p>Hello</p>
+      <p>If you would like to get in contact with me, please fill in the form below, and I will get back to you as soon as possible!
+      </p>
            <contact-form />
       </template>
       <template v-slot:sidebar>
