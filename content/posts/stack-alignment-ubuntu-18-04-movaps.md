@@ -34,13 +34,13 @@ The Streaming SIMD Extensions Instruction Set (SSE) is an extension instruction 
 4. Caching Functionality & Ordering Instructions \
    *These instructions store, prefetch and serialise operations.*
 
-*[Oracle](https://docs.oracle.com/cd/E26502_01/html/E28388/eojde.html)*
+\    *[Oracle](https://docs.oracle.com/cd/E26502_01/html/E28388/eojde.html)*
 
 **Ubuntu 18.04 & MOVAPS**
 
 Ubuntu 18.04’s version of GLIBC uses the SSE Instruction Set’s MOVAPS instruction to push data onto the stack in specific functions, such as printf.  The MOVAPS instruction, “moves a double quadword containing four packed single-precision floating-point numbers from the source operand (second operand) to the destination operand (first operand). When the source or destination operand is a memory operand, the operand must be aligned on a 16-byte boundary or a general-protection exception (#GP) will be generated.”
 
-*[Carnegie Mellon University](http://qcd.phys.cmu.edu/QCDcluster/intel/vtune/reference/vc181.htm)*
+\    *[Carnegie Mellon University](http://qcd.phys.cmu.edu/QCDcluster/intel/vtune/reference/vc181.htm)*
 
 The MOVAPS instruction does cause compatibility issues with a misaligned ROP chain, triggering the General Protection Exception when it tries to operate on non-16-byte-aligned data. So, if your ROP chain is generating a SEGFAULT and the faulting instruction is a MOVAPS, it will most likely be a dodgy stack alignment. 
 
