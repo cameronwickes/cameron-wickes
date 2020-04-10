@@ -12,15 +12,13 @@ Whilst on my quest to discover the difference in x86 and x86-64 binaries, I came
 
 **Stack Alignment** 
 
-Let’s first take a look into stack alignment, an important aspect of compiler behaviour, which controls how the stack is laid out. The stack is ‘aligned’ when variables on the stack start at certain addresses depending on their size in memory. The ‘alignment’ pads the variable to a certain number of bytes, so they can be operated on in a single fetch.
-Looking at memory maps reveal the need for stack alignment quite clearly, where each address holds a single byte that can be accessed independently: 
+Let’s first take a look into stack alignment, an important aspect of compiler behaviour, which controls how the stack is laid out. The stack is ‘aligned’ when variables on the stack start at certain addresses depending on their size in memory. The ‘alignment’ pads the variable to a certain number of bytes, so they can be operated on in a single fetch. Looking at memory maps reveal the need for stack alignment quite clearly, where each address holds a single byte that can be accessed independently: 
 
 ![](/uploads/combine_images-1-.jpg)
 
-   *Figure 1 – Memory Map          Figure 2 – Non-Aligned Stack         Figure 3 – Aligned Stack* 
+   *Figure 1 – Memory Map                     Figure 2 – Non-Aligned Stack                                   Figure 3 – Aligned Stack* 
 
-You can see an example of non-stack aligned memory in Figure 2. We store a byte of data in the 0000 address and store a word of data in the address 0001, overlapping into 0002 (word = 2 bytes). 
-If we wanted to read the word at address 0001 & 0002, we would have to do two separate read operations. One would get 0000 & 0001, then the second would get 0002 & 0003. A separate combination operation would be required to combine the relevant bits of data between the two.
+You can see an example of non-stack aligned memory in Figure 2. We store a byte of data in the 0000 address and store a word of data in the address 0001, overlapping into 0002 (word = 2 bytes).  If we wanted to read the word at address 0001 & 0002, we would have to do two separate read operations. One would get 0000 & 0001, then the second would get 0002 & 0003. A separate combination operation would be required to combine the relevant bits of data between the two.
 In Figure 3, stack alignment is used to store the data, with the byte being padded/aligned and the word being stored in 0002 & 0003. Although not optimal for memory space, stack alignment boasts low computational complexity and higher access speeds.
 
 **The SSE instruction set** 
@@ -71,8 +69,6 @@ We should know that:
 
 * Pushing something onto the stack results in the stack pointer (rsp) decreasing by 8
 * Popping something off the stack results in the stack pointer (rsp) increasing by 8
-
-
 
 Since our stack pointer can only be multiples of 8, and the SEGFAULT is caused because it’s not a multiple of 16, it must be because the stack pointer is aligned to an 8 and not a 16. \
 
