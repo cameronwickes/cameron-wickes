@@ -3,7 +3,7 @@
     <site-hero
       title="Contact Me"
       subtitle="Get in touch!"
-      image="/uploads/contact-hero.jpg"
+      image="/uploads/system-3699542_1920.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
