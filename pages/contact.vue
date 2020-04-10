@@ -2,11 +2,12 @@
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
       title="Contact Me"
-      subtitle="Get in touch below"
+      subtitle="Get in touch!"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
+      <p>Hello</p>
            <contact-form />
       </template>
       <template v-slot:sidebar>
