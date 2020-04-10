@@ -8,13 +8,7 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="tile is-ancestor">
-          <div class="tile is-parent">
-          </div>
-          <div class="tile is-parent is-8">
-            <article class="tile is-child box">
-              <contact-form />
-            </article>
-          </div>
+           <contact-form />
         </div>
       </template>
       <template v-slot:sidebar>
