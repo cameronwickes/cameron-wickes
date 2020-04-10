@@ -7,9 +7,7 @@
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
-        <div class="tile is-ancestor">
            <contact-form />
-        </div>
       </template>
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">
