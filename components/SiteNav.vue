@@ -6,13 +6,6 @@
   >
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
-        <site-logo v-if="$siteConfig.logo === 'logo-component'" />
-        <img
-          v-else
-          :src="$siteConfig.logo"
-          :alt="$siteConfig.siteName"
-          class="logo"
-        />
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
@@ -23,7 +16,7 @@
         'is-active': active
       }"
     >
-      <ul class="navbar-middle">
+      <ul class="navbar-start">
         <li
           v-for="item in $siteConfig.mainMenu"
           :key="item.link"
