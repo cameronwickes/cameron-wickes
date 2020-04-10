@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="control">
-      <button class="button is-primary">
+      <button class="button is-primary is-center">
         Contact Us
       </button>
     </div>
