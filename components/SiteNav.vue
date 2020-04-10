@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-dark bg-dark has-shadow is-fixed-top"
+    class="navbar is-dark has-shadow is-fixed-top"
     role="navigation"
     aria-label="main navigation"
   >
@@ -16,7 +16,7 @@
         'is-active': active
       }"
     >
-      <ul class="navbar-start">
+      <ul class="navbar-item">
         <li
           v-for="item in $siteConfig.mainMenu"
           :key="item.link"
