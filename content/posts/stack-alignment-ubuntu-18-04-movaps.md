@@ -10,6 +10,8 @@ featureImage: /uploads/inside-glacier-cave-2.jpg
 ---
 *Whilst on my quest to discover the difference in x86 and x86-64 binaries, I came across a ROP challenge which required the stack to be aligned properly for the exploit to complete. Having not come across a problem like this before, I had a look online to see if I could understand the problem further, but there seemed to be no concise explanation of how and why these issues fit together.  I’ve therefore compiled a short series of explanations about the MOVAPS issue, stack alignment and how a ROP chain may violate the rules set by certain instructions.*
 
+
+
 **Stack Alignment** 
 
 Let’s first take a look into stack alignment, an important aspect of compiler behaviour, which controls how the stack is laid out. The stack is ‘aligned’ when variables on the stack start at certain addresses depending on their size in memory. The ‘alignment’ pads the variable to a certain number of bytes, so they can be operated on in a single fetch. Looking at memory maps reveal the need for stack alignment quite clearly, where each address holds a single byte that can be accessed independently: 
