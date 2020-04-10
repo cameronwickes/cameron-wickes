@@ -43,7 +43,7 @@
       <label class="label is-medium">Message</label>
       <div class="control">
         <textarea
-          class="textarea"
+          class="textarea is-medium"
           placeholder="Detailed description of your comment, request, etc"
           rows="8"
         ></textarea>
