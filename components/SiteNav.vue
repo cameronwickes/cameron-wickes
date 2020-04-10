@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar is-primary has-shadow is-fixed-top"
+    class="navbar has-shadow is-fixed-top"
     role="navigation"
     aria-label="main navigation"
   >
@@ -66,14 +66,6 @@ export default {
   height: auto;
 }
 
-.navbar-item {
-        position: absolute
-        left: 50%
-        margin-left: -63px // 50% in my case
-        height: 100%
-        display: flex
-        align-items: center
-}
 .navbar-menu a {
   display: block;
 }
