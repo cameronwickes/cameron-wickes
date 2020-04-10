@@ -54,7 +54,7 @@
     </div>
     <div class="control">
       <button class="button is-primary is-center">
-        Contact Us
+        Contact Me
       </button>
     </div>
   </form>
