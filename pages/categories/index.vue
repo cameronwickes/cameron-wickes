@@ -2,7 +2,7 @@
   <div id="categories-page" class="page-wrapper categories-page">
     <site-hero 
     title="Categories" 
-    subtitle="Pick a topic to see relevant articles"
+    subtitle="Pick a topic to get started!"
     image="/uploads/categoriesfinal.jpg" />
     <main-section theme="one-column">
       <categories-grid />
