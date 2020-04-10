@@ -13,8 +13,11 @@ Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge,
 
 General purpose registers are used to store data or memory addresses. They can be used by either a programmer or a user. 
 
-32-bit systems have eight core registers (each of 32 bits/4 bytes): \
-*EAX, EBX, ECX, EDX, ESI, EDI, EBP, and ESP*
+32-bit systems have eight core registers (each of 32 bits/4 bytes): 
+
+```
+EAX, EBX, ECX, EDX, ESI, EDI, EBP, and ESP
+```
 
 64-bit systems extend the eight core 32-bit registers to make them (64 bits long/8 bytes), and also add eight extra registers, R8-R15.\
 *RAX, RBX, RCX, RDX, RDI, RBP, RSP, R8, R9, R10, R11, R12, R13, R14, R15*
