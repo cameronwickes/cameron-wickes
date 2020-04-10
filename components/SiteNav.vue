@@ -23,7 +23,7 @@
         'is-active': active
       }"
     >
-      <ul class="navbar-end">
+      <ul class="navbar-start">
         <li
           v-for="item in $siteConfig.mainMenu"
           :key="item.link"
