@@ -3,7 +3,7 @@
     <site-hero
       title="About Me"
       subtitle="A little bit about myself..."
-      image="/uploads/about-hero.jpg"
+      image="/uploads/contact.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
