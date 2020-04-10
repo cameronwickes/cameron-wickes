@@ -19,8 +19,11 @@ General purpose registers are used to store data or memory addresses. They can b
 EAX, EBX, ECX, EDX, ESI, EDI, EBP, and ESP
 ```
 
-64-bit systems extend the eight core 32-bit registers to make them (64 bits long/8 bytes), and also add eight extra registers, R8-R15.\
-*RAX, RBX, RCX, RDX, RDI, RBP, RSP, R8, R9, R10, R11, R12, R13, R14, R15*
+64-bit systems extend the eight core 32-bit registers to make them (64 bits long/8 bytes), and also add eight extra registers, R8-R15.
+
+```
+RAX, RBX, RCX, RDX, RDI, RBP, RSP, R8, R9, R10, R11, R12, R13, R14, R15
+```
 
 Note: We can access the lower 32 bits of 64-bit registers using the E-- notation, instead of the R-- notation, and R-d instead of R- notation.  Example: RAX is a 64-bit register. EAX would access the lower 32 bits of the register.  Example: R10 is a 64-bit register. R10d would access the lower 32 bits of this register.
 
