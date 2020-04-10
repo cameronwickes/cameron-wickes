@@ -1,44 +1,77 @@
 ---
-title: Built For Speed
-subtitle: Awake is Built to Be Blazing Fast
+title: Stack Alignment, Ubuntu 18.04 & MOVAPS
+subtitle: The three horsemen of the apocalypse...
 category:
   - Binary Exploitation
-author: Daniel Kelly
+  - ROP
+author: Cameron Wickes
 date: 2019-08-02T04:27:56.800Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
-Awake is fast for a couple different reasons. It both capitalizes on the platform it's built for (JAM Stack) and the framework it's built on (Nuxt.js) as well as includes some intentional optimizations to improve the end user experience when it comes to speed. 
+Whilst on my quest to discover the difference in x86 and x86-64 binaries, I came across a ROP challenge which required the stack to be aligned properly for the exploit to complete. Having not come across a problem like this before, I had a look online to see if I could understand the problem further, but there seemed to be no concise explanation of how and why these issues fit together.  I’ve therefore compiled a short series of explanations about the MOVAPS issue, stack alignment and how a ROP chain may violate the rules set by certain instructions. 
 
-## The JAM Stack
+**Stack Alignment**
+Let’s first take a look into stack alignment, an important aspect of compiler behaviour, which controls how the stack is laid out. The stack is ‘aligned’ when variables on the stack start at certain addresses depending on their size in memory. The ‘alignment’ pads the variable to a certain number of bytes, so they can be operated on in a single fetch.
+Looking at memory maps reveal the need for stack alignment quite clearly, where each address holds a single byte that can be accessed independently: 
 
-The JAM stack is a way of building websites that compile down basically to html, css, and javascript and then is served over a CDN. API's are then sprinkled in to add more advanced functionality where needed. Because there is no server, no computations to run, initial response time is like lightening. 
+\    *Figure 1 – Memory Map          Figure 2 – Non-Aligned Stack         Figure 3 – Aligned Stack*
+You can see an example of non-stack aligned memory in Figure 2. We store a byte of data in the 0000 address and store a word of data in the address 0001, overlapping into 0002 (word = 2 bytes). 
+If we wanted to read the word at address 0001 & 0002, we would have to do two separate read operations. One would get 0000 & 0001, then the second would get 0002 & 0003. A separate combination operation would be required to combine the relevant bits of data between the two.
+In Figure 3, stack alignment is used to store the data, with the byte being padded/aligned and the word being stored in 0002 & 0003. Although not optimal for memory space, stack alignment boasts low computational complexity and higher access speeds.
 
-## Nuxt.js
+**The SSE instruction set** 
 
-[Nuxt.js](https://www.nuxtjs.org) has the ability to generate static sites that are served on the JAM Stack, building plain old html files... but those html files are super-powered with Vue.js. What this means, is that pages have content "hard coded" into the html files for top-rate SEO scores but after initial page load behave as a traditional SPA with smooth page transitions, minimal data served between requests, etc. This means Awake is fast both on both the first page visitors hit and even faster on subsequent pages.
+The Streaming SIMD Extensions Instruction Set (SSE) is an extension instruction set to the x86 architecture, designed for signal processing and graphics processing by Intel. 
+The Instruction Set has four main categories:
 
-## Purge CSS
+1. SIMD Single-Precision Floating-Point Instructions \
+   *These instructions operate on the XMM registers and memory to read/write, perform arithmetic, compare operands and convert values.*
+2. MXSCR State Management Instructions \
+   *These instructions save and restore the control of the XMM, MXCSR and status registers.*
+3. SIMD Integer Instructions \
+   *These instructions perform operations on the XMM registers.*
+4. Caching Functionality & Ordering Instructions \
+   *These instructions store, prefetch and serialise operations.*
 
-Awake uses the [Bulma](https://bulma.io/) framework for a starting place for styles but certainly doesn't use every style the Bulma framework provides. [Purge CSS](https://www.purgecss.com/) minimizes the css sent to the browser by removing any unused styles at compile time. You can read more about how Awake uses Purge CSS in this [post](/light-css-footprint).
+> *[Oracle](https://docs.oracle.com/cd/E26502_01/html/E28388/eojde.html)*
 
-## Opti-Image + Responsive Loader
+**Ubuntu 18.04 & MOVAPS**
 
-[Opti-Image](https://www.npmjs.com/package/opti-image) is a little vue component I wrote to be able to serve images in the most performant way possible. It supports webp's for browser's that support it (though not using the webp functionality for Awake, yet...), lazy loading out of the box, and easy srcset management. [Responsive Loader (the Nuxt Flavor)](https://www.npmjs.com/package/nuxt-responsive-loader) auto optimizes image quality for best performance in the browser and creates multiple sizes for different devices. Combine these 2 together and all image on Awake are basically guaranteed to fly. 
+Ubuntu 18.04’s version of GLIBC uses the SSE Instruction Set’s MOVAPS instruction to push data onto the stack in specific functions, such as printf. 
+The MOVAPS instruction, “moves a double quadword containing four packed single-precision floating-point numbers from the source operand (second operand) to the destination operand (first operand). When the source or destination operand is a memory operand, the operand must be aligned on a 16-byte boundary or a general-protection exception (#GP) will be generated.”
 
-## Font Awesome 5
+> [Carnegie Mellon University](http://qcd.phys.cmu.edu/QCDcluster/intel/vtune/reference/vc181.htm)
 
-Awake comes with Font Awesome 5 support out of the box, so you have a wealth of free quality icons at your finger tips. However, if you're used to using Font Awesome in the more traditional manner without a build step you may be thinking: "What about all those icons I don't actually use? Aren't they just bloat?" Not so with Awake, with webpack we can bundle only the icons we're using. This does mean an extra step of registering a new icon when you want to use it, but that's as easy as adding it to an array in `config/modules.js` like so: 
 
-```
- icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
-```
+The MOVAPS instruction does cause compatibility issues with a misaligned ROP chain, triggering the General Protection Exception when it tries to operate on non-16-byte-aligned data. So, if your ROP chain is generating a SEGFAULT and the faulting instruction is a MOVAPS, it will most likely be a dodgy stack alignment. 
 
-## Lazy Loading Like Crazy
 
-In order to speed up both compile time and page load time, basically everything but the header, footer, hero, and main content of the posts are lazy loaded. All grids are lazy loaded with infinite scroll and all images (feature images and those in posts) are also lazy loaded. Comments can be lazy loaded or loaded on click of "Show Comments" button.
+The issue is shown below, with the failing instruction being the MOVAPS:
 
-## Pretty Stinkin' Fast, I'd Say
 
-I've taken a number of steps to try and make Awake as fast and snappy as possible for the end user and I think you'll find it's been handled fairly well. Last I ran one of the posts through Page Speed Insights I got a 99 score for desktop and 89 for mobile. [Give it a try for yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fawake-template.netlify.com%2Fpost-markup-and-formatting%2F&tab=desktop)
 
-![Page speed insights score 99!!](/uploads/page-speed-insights.jpg)
+
+
+Let’s examine that MOVAPS instruction to see what’s going on under the hood: 
+
+`movaps XMMWORD PTR [rsp+0x40], xmm0 `
+
+The MOVAPS instruction tries to move the four packed single precision floating-point numbers in the xmm0 register to the address of rsp+0x40. 
+Notice that we are using XMMWORD PTR, and \[ ] . This implies the destination operand is a memory operand, and the rules of 16-byte aligned data therefore apply. If our memory address is not 16-byte aligned, and our address (rsp + 0x40) is not a multiple of 16, the General Protection Exception will trigger, and a SEGFAULT will occur.
+
+**Fixing Stack Alignment Issues** 
+
+We could try and find a `sub rsp, 8` or an `add rsp, 8` gadget and add it to the start of our ROP chain to realign the stack, but there may not be any of these gadgets freely available within the program. A simpler solution would be to utilise our knowledge of the stack pointer (rbp) and how it functions.\
+
+We should know that:
+In x86 (32 bit) machines
+• Pushing something onto the stack results in the stack pointer (esp) decreasing by 4
+• Popping something off the stack results in the stack pointer (esp) increasing by 4
+Whilst in x86-64 (64 bit) machines
+• Pushing something onto the stack results in the stack pointer (rsp) decreasing by 8
+• Popping something off the stack results in the stack pointer (rsp) increasing by 8
+
+
+Since our stack pointer can only be multiples of 8, and the SEGFAULT is caused because it’s not a multiple of 16, it must be because the stack pointer is aligned to an 8 and not a 16. \
+
+If we push another gadget onto the stack (a simple ret will do), it will increment the stack pointer, making it a multiple of 16 to satisfy the MOVAPS instruction and make the 64-bit pain go away!
