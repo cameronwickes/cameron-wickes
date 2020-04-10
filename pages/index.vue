@@ -3,7 +3,7 @@
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
     <button
         class="button is-primary"
-        @click="$router.push('/about')"
+        @click="$router.push('/about')" 
       >
         Find out more...
       </button>
