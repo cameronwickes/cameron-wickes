@@ -66,6 +66,14 @@ export default {
   height: auto;
 }
 
+.navbar-item {
+        position: absolute
+        left: 50%
+        margin-left: -63px // 50% in my case
+        height: 100%
+        display: flex
+        align-items: center
+}
 .navbar-menu a {
   display: block;
 }
