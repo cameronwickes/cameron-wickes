@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar is-dark has-shadow is-fixed-top"
+    class="navbar is-primary has-shadow is-fixed-top"
     role="navigation"
     aria-label="main navigation"
   >
@@ -16,12 +16,12 @@
         'is-active': active
       }"
     >
-      <ul class="navbar-item">
+      <ul class="navbar-start">
         <li
           v-for="item in $siteConfig.mainMenu"
           :key="item.link"
           class="navbar-item"
-          @click="active = false"
+          @click="active = true"
         >
           <component
             :is="item.link.startsWith('http') ? 'a' : 'nuxt-link'"
