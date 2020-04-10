@@ -21,7 +21,7 @@
           v-for="item in $siteConfig.mainMenu"
           :key="item.link"
           class="navbar-item"
-          @click="active = true"
+          @click="active = false"
         >
           <component
             :is="item.link.startsWith('http') ? 'a' : 'nuxt-link'"
