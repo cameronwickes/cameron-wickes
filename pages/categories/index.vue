@@ -1,6 +1,6 @@
 <template>
   <div id="categories-page" class="page-wrapper categories-page">
-    <site-hero title="Categories" image="uploads/maarten-van-den-heuvel-8EzNkvLQosk-unsplash.jpg" />
+    <site-hero title="Categories" image="/uploads/maarten-van-den-heuvel-8EzNkvLQosk-unsplash.jpg" />
     <main-section theme="one-column">
       <categories-grid />
     </main-section>
