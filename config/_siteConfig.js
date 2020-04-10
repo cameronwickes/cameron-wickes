@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Cameron Wickes',
   tagline: 'A student with a passion for cybersecurity.',
-  featureImage: '/uploads/mac.jpg',
+  featureImage: '/uploads/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
