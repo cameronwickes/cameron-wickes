@@ -2,7 +2,7 @@
   <div id="categories-page" class="page-wrapper categories-page">
     <site-hero 
     title="Categories" 
-    subtitle="Get in touch!"
+    subtitle="View all topics below"
     image="/uploads/categoriesfinal.jpg" />
     <main-section theme="one-column">
       <categories-grid />
