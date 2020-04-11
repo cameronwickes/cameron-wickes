@@ -55,6 +55,7 @@
         </span>
       </div>
     </div>
+    <br>
     <div class="control">
       <button class="button is-primary is-center" type="submit">
         Contact Me
