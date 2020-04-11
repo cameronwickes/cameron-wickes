@@ -15,10 +15,9 @@
           <p>I am always trying to expand my knowledge of the subject, and up and coming areas are what fascinate me the most, such as User Behaviour and Entity Analytics, or Malware Analysis using Machine Learning.</p>
           <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>
           <p>Click on some other sections to explore more!</p>
-          <br>
           <h3>Contact Me</h3>
           <p>If you'd like to get in touch with me, please do so via one of the sites below:</p>
-          <font-awesome-icon icon="user" />
+          <font-awesome-icon :icon="{prefix: 'fab', iconName: 'twitter' }" />
           <a href="https://twitter.com/cameronwickes0">Twitter</a>
         </div>
       </template>
