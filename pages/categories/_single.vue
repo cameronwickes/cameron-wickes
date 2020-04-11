@@ -38,7 +38,7 @@ export default {
     return {
     title: `$store.state.name | ${this.$siteConfig.siteName}`
     }
-  }
+  },
   data() {
     return {
       allCats: []
