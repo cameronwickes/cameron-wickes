@@ -7,7 +7,7 @@ author: Cameron Wickes
 date: 2020-04-10T11:26:53.700Z
 featureImage: /uploads/markus-spiske-1llh8k2_yfk-unsplash.jpg
 ---
-Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge, especially if you haven’t got your head around the differences in registers and calling conventions between the two. In the below article, I aim to address the differences between the two, so you can understand what you need to do differently when dealing with the respective architectures. If some of the terminology in this is a bit frightening, make sure to have a read of “Callers, Callees and Stack Frames”, a previous article which goes in depth on functions and what happens to the stack when functions are called.
+Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge, especially if you haven’t got your head around the differences in registers and calling conventions between the two. In the below article, I aim to address the differences between the two, so you can understand what you need to do differently when dealing with the respective architectures. If some of the terminology in this is a bit frightening, make sure to have a read of [Callers, Callees and Stack Frames](https://www.cameronwickes.com/callers-callees-and-stack-frames), a previous article which goes in depth on functions and what happens to the stack when functions are called.
 
 **Recap of 32 and 64-bit Registers**
 
@@ -35,16 +35,14 @@ Calling convention is a contract between the caller and callee, which defines ho
 
 In 32-bit machines, arguments are pushed onto the stack before the call. These arguments should be pushed in reverse order, with the first parameter at the lowest address, and the last parameter at the highest address. Example: Say we had a function called funcA(int a, int b, int c). If we wanted to call this function, we would have to push our arguments onto the stack in the order C,B,A. This means that the function pops them off the stack in the right order (they will be popped to become A,B,C).
 
-However, in 64-bit machines, arguments are not placed on the stack. Instead, the program uses it’s general purpose registers to store and pass these arguments to functions. The parameter of the required function fill the non-SSE registers in the following order: RDI, RSI, RDX, RCX, R8, R9
-If we have floating point numbers, we don’t fill the aforementioned registers, but instead utilise the SSE registers designed by intel to handle floating point numbers. 
+However, in 64-bit machines, arguments are not placed on the stack. Instead, the program uses it’s general purpose registers to store and pass these arguments to functions. The parameter of the required function fill the non-SSE registers in the following order: RDI, RSI, RDX, RCX, R8, R9 If we have floating point numbers, we don’t fill the aforementioned registers, but instead utilise the SSE registers designed by intel to handle floating point numbers. 
 They fill sequentially in the order XMM0 – XMM7.
 Any further parameters that don’t fit into these registers get pushed onto the stack, lower to higher address, and the caller makes sure that all of the parameters on the stack are ‘8-byte-aligned’.
 If there is a variable number of arguments passed to the function, the number of arguments is pushed into the RAX register so the computer knows how many it is expecting.
 
 **Execution of the Function** 
 
-Whilst executing a function, the machines can utilise any register for a particular purpose. However, there are some strict instructions for restoring them before the return call on both 32 and 64-bit systems. The following registers must be restored:
-32-bit: EBX, ESI, EDI, EBP
+Whilst executing a function, the machines can utilise any register for a particular purpose. However, there are some strict instructions for restoring them before the return call on both 32 and 64-bit systems. The following registers must be restored: 32-bit: EBX, ESI, EDI, EBP
 64-bit: RBX, RSI, RDI, RBP, R12-15 (also XMM6-XMM15 in some cases)
 Restoring these registers makes sure that the stack frame is recreated to how it was before it entered the function, so we can correctly resume previous execution.
 
