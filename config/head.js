@@ -15,6 +15,10 @@ export default {
       src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
       defer: true,
       id: 'netlify-identity-widget-script'
+    },
+    {
+      src: 'https://www.google.com/recaptcha/api.js',
+      id: 'google-captcha'
     }
   ]
 }
