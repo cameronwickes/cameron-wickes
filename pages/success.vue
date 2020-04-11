@@ -8,7 +8,9 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
        <div class="content">
-           <h3 style="text-align:justify">Thanks for contacting... I will be in touch as soon as possible!</h3>
+           <h3>Thank you!</h3>
+           <p>Your message has been successfully sent, and I will be in touch as soon as possible.<p>
+           <p>Have a great day!</p>
        </div>
       </template>
       <template v-slot:sidebar>
