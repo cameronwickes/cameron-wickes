@@ -55,8 +55,8 @@
         </span>
       </div>
     </div>
-    <div data-netlify-recaptcha="true"></div>
-    <div>&nbsp;</div>
+    <div class="g-recaptcha" data-sitekey="6LfIsegUAAAAAJ_ZcUddo83Qh8uvqnbU0wcOwWR7"></div>
+    <br/>
     <div class="control">
       <button class="button is-primary is-center" type="submit">
         Contact Me
