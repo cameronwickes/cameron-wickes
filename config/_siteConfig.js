@@ -29,10 +29,6 @@ export default {
     {
       name: 'Categories', //Categories
       link: '/categories'
-    },
-    {
-      name: 'Contact', //Contact
-      link: '/contact'
     }
   ],
   hero: {
