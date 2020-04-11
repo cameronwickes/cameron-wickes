@@ -8,7 +8,7 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
        <div class="content">
-           <h3 align="center">Thanks for contacting... I will be in touch as soon as possible!</h3>
+           <h3 style="text-align:center">Thanks for contacting... I will be in touch as soon as possible!</h3>
        </div>
       </template>
       <template v-slot:sidebar>
