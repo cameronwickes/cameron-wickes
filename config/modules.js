@@ -27,8 +27,12 @@ export const modulesSettings = {
       {
         set: '@fortawesome/free-solid-svg-icons',
         icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
+      },
+      {
+       set: '@fortawesome/free-brands-svg-icons',
+       icons: ['fa-twitter','fa-linkedin']
       }
-    ]
+      ]
   },
   styleResources: {
     scss: ['./assets/scss/_vars.scss']
