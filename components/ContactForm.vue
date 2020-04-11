@@ -56,6 +56,7 @@
       </div>
     </div>
     <div netlify-recaptcha></div>
+    <div>&nbsp;</div>
     <div class="control">
       <button class="button is-primary is-center" type="submit">
         Contact Me
