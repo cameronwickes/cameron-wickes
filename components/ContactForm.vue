@@ -55,7 +55,7 @@
         </span>
       </div>
     </div>
-    <div class="g-recaptcha" data-sitekey="6LfIsegUAAAAAJ_ZcUddo83Qh8uvqnbU0wcOwWR7"></div>
+    <p><div class="g-recaptcha" data-sitekey="6LfIsegUAAAAAJ_ZcUddo83Qh8uvqnbU0wcOwWR7"></div></p>
     <br/>
     <div class="control">
       <button class="button is-primary is-center" type="submit">
