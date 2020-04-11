@@ -36,6 +36,7 @@ import { setPageData } from '../../helper'
 export default {
   data() {
     return {
+      title: `$store.state.name | ${this.$siteConfig.siteName}`
       allCats: []
     }
   },
