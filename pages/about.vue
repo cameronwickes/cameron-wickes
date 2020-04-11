@@ -17,10 +17,10 @@
           <p>Click on some other sections to explore more!</p>
           <h3>Contact Me</h3>
           <p>If you'd like to get in touch with me, please do so via one of the sites below:</p>
-          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" />
+          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="lg" />
           <a href="https://twitter.com/cameronwickes0" target="_blank">Twitter</a>
           <br>
-          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" />
+          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="2x" />
           <a href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank">LinkedIn</a>
         </div>
       </template>
