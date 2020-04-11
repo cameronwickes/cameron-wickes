@@ -16,15 +16,17 @@
           <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>
           <p>Click on some other sections to explore more!</p>
           <h3>Contact Me</h3>
-          <p>If you'd like to get in touch with me, please do so via one of the methods below:</p>
-          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" />
-          <a style="font-size:20px;vertical-align:middle;color:09b4ed" href="https://twitter.com/cameronwickes0" target="_blank">   Twitter</a>
-          <br>
-          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" />
-          <a style="font-size:20px;vertical-align:middle;color:09b4ed" href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank">   LinkedIn</a>
-          <br>
-          <font-awesome-icon icon="envelope" size="3x" />
-          <span style="font-size:20px;vertical-align:middle;color:09b4ed">   enquiries@cameronwickes.com<span>
+          <div style="padding: 0">
+            <p>If you'd like to get in touch with me, please do so via one of the methods below:</p>
+            <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" />
+            <a style="font-size:20px; vertical-align:middle; color:#09b4ed" href="https://twitter.com/cameronwickes0" target="_blank">   Twitter</a>
+            <br>
+            <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" />
+            <a style="font-size:20px; vertical-align:middle; color:#09b4ed" href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank">   LinkedIn</a>
+            <br>
+            <font-awesome-icon icon="envelope" size="3x" />
+            <span style="font-size:20px; vertical-align:middle; color:#09b4ed">   enquiries@cameronwickes.com</span> 
+          </div>
         </div>
       </template>
 
