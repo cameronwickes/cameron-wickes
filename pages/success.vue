@@ -7,8 +7,10 @@
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
-      <h3>Thanks for contacting! I will get back to you as soon as possible!</h3>
-      <br>
+       <div class="content">
+           <h3>Thanks for contacting! I will be in touch as soon as possible!</h3>
+       </div>
+     
       </template>
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">
