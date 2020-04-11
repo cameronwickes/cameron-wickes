@@ -56,7 +56,7 @@
       </div>
     </div>
     <div class="content">
-    <p><div class="g-recaptcha" data-sitekey="6LfIsegUAAAAAJ_ZcUddo83Qh8uvqnbU0wcOwWR7"></div></p>
+    <p><div data-netlify-recaptcha="true"></div></p>
     <br>
     </div>
     <div class="control">
