@@ -30,7 +30,7 @@ export const modulesSettings = {
       },
       {
        set: '@fortawesome/free-brands-svg-icons',
-       icons: ['fa-twitter','fa-linkedin']
+       icons: ['faTwitter','faLinkedin']
       }
       ]
   },
