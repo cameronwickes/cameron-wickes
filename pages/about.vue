@@ -8,10 +8,12 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h1>Hi!<h1>
-          <p>I am Cameron Wickes, a 17 year old student from Cumbria, with a love for Cybersecurity and all things Computer Science.<p>
-          <p>I am interested in all sorts of areas, and am always trying to expand my knowledge of the subject. </p>
-          <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a knowledge bank for up and coming enthusiasts.</p>
+          <h3>Hi!</h3>
+          <p>I am Cameron Wickes, a 17-year-old student from Cumbria, with a love for Cybersecurity and all things computer-related. My journey started a couple of years ago, when a friend introduced me to a Cybersecurity course. Having loved Computer Science for a while, I immediately jumped at the idea.</p>
+          <p>Python is my go-to language, due to it’s flexibility and speed, but I have a background in VB.NET, and am currently learning C.  I love solving problems with a creative approach, which is why coding is such an appeal, but cybersecurity lets me combine this passion for coding with advanced theoreticality. To code well, you need a willingness to change your thinking and work collaboratively with other people. I am very much a people person, and enjoy working in teams, but can also work well individually.</p>
+          <p>Through HMG and the SANS institute, I got the chance to participate in and complete the SANS SEC504 course, which I enjoyed thoroughly. I hope to get the chance to participate in more events like these.</p>
+          <p>I am always trying to expand my knowledge of the subject, and up and coming areas are what fascinate me the most, such as User Behaviour and Entity Analytics, or Malware Analysis using Machine Learning.</p>
+          <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>
           <p>Click on some other sections to explore more!</p>
         </div>
       </template>
