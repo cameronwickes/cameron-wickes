@@ -17,14 +17,14 @@
           <p>Click on some other sections to explore more!</p>
           <h3>Contact Me</h3>
           <p>If you'd like to get in touch with me, please do so via one of the sites below:</p>
-          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="lg" />
-          <a href="https://twitter.com/cameronwickes0" target="_blank"><font color="09b4ed">Twitter</font></a>
+          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" />
+          <a href="https://twitter.com/cameronwickes0" target="_blank"><font color="09b4ed">   Twitter</font></a>
           <br>
-          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="2x" />
-          <a href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank"><font color="09b4ed">LinkedIn</font></a>
+          <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" />
+          <a href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank"><font color="09b4ed">   LinkedIn</font></a>
           <br>
-          <font-awesome-icon icon="envelope" size="2x" />
-          <p>enquiries@cameronwickes.com<p>
+          <font-awesome-icon icon="envelope" size="3x" />
+          <span>enquiries@cameronwickes.com<span>
         </div>
       </template>
 
