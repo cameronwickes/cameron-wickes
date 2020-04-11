@@ -1,5 +1,5 @@
 <template>
-  <form name="ContactForm" action="/" method="POST" Content-Type="application/x-www-form-urlencoded" netlify>
+  <form name="ContactForm" method="POST" Content-Type="application/x-www-form-urlencoded" netlify>
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
