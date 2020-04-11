@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="control">
-      <button class="button is-primary is-center">
+      <button class="button is-primary is-center" type="submit">
         Contact Me
       </button>
     </div>
