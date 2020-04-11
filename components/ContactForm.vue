@@ -55,7 +55,7 @@
         </span>
       </div>
     </div>
-    <div netlify-recaptcha></div>
+    <div data-netlify-recaptcha="true"></div>
     <div>&nbsp;</div>
     <div class="control">
       <button class="button is-primary is-center" type="submit">
