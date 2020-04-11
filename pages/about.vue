@@ -18,7 +18,7 @@
           <br>
           <h3>Contact Me</h3>
           <p>If you'd like to get in touch with me, please do so via one of the sites below:</p>
-          <i class="fab fa-twitter"></i>
+           <font-awesome-icon icon="twitter" />
           <a href="https://twitter.com">Twitter</a>
         </div>
       </template>
