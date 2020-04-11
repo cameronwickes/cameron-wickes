@@ -14,15 +14,13 @@
           <p>Through HMG and the SANS institute, I got the chance to participate in and complete the SANS SEC504 course, which I enjoyed thoroughly. I hope to get the chance to participate in more events like these.</p>
           <p>I am always trying to expand my knowledge of the subject, and up and coming areas are what fascinate me the most, such as User Behaviour and Entity Analytics, or Malware Analysis using Machine Learning.</p>
           <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>
-          <p>Click on some other sections to explore more!</p>
           <h3>Contact Me</h3>
             <p>If you'd like to get in touch with me, please do so via one of the methods below:</p>
-            
             <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" style="vertical-align:middle" />
             <a style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed" href="https://twitter.com/cameronwickes0" target="_blank">   Twitter</a>
             <br>
             <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" style="vertical-align:middle" />
-            <a style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed" href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank">   LinkedIn</a>
+            <a style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed" href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank">    LinkedIn</a>
             <br>
             <font-awesome-icon icon="envelope" size="3x" style="vertical-align:middle"/>
             <span style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed">   enquiries@cameronwickes.com</span> 
