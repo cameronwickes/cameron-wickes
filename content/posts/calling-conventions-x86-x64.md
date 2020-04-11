@@ -5,7 +5,7 @@ category:
   - Binary Exploitation
 author: Cameron Wickes
 date: 2020-04-10T11:26:53.700Z
-featureImage: /uploads/blur-bright-business-codes-207580.jpg
+featureImage: /uploads/caspar-camille-rubin-89xup-xmyra-unsplash.jpg
 ---
 Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge, especially if you haven’t got your head around the differences in registers and calling conventions between the two. In the below article, I aim to address the differences between the two, so you can understand what you need to do differently when dealing with the respective architectures. If some of the terminology in this is a bit frightening, make sure to have a read of “Callers, Callees and Stack Frames”, a previous article which goes in depth on functions and what happens to the stack when functions are called.
 
