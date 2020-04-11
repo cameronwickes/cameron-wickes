@@ -55,8 +55,10 @@
         </span>
       </div>
     </div>
+    <div class="content">
     <p><div class="g-recaptcha" data-sitekey="6LfIsegUAAAAAJ_ZcUddo83Qh8uvqnbU0wcOwWR7"></div></p>
-    <br/>
+    <br>
+    </div>
     <div class="control">
       <button class="button is-primary is-center" type="submit">
         Contact Me
