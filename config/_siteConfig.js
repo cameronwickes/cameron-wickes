@@ -19,7 +19,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Home', //About
+      name: 'Home', //Home
       link: '/'
     },
     {
@@ -27,17 +27,17 @@ export default {
       link: '/about'
     },
     {
-      name: 'Categories',
+      name: 'Categories', //Categories
       link: '/categories'
     },
     {
-      name: 'Contact',
+      name: 'Contact', //Contact
       link: '/contact'
     }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
-  },
+  }, 
 
   // Main Layout/Style
   layout: {
