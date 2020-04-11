@@ -18,8 +18,8 @@
           <br>
           <h3>Contact Me</h3>
           <p>If you'd like to get in touch with me, please do so via one of the sites below:</p>
-          <i class="fa fa-cloud"></i>
-          <a href="twitter.com">Twitter</a>
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com">Twitter</a>
         </div>
       </template>
 
