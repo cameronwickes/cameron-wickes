@@ -18,13 +18,12 @@
           <h3>Contact Me</h3>
             <p>If you'd like to get in touch with me, please do so via one of the methods below:</p>
             
-
-            <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" style="align:middle" />
+            <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" style="vertical-align:middle" />
             <a style="font-size:20px; vertical-align:middle; color:#09b4ed" href="https://twitter.com/cameronwickes0" target="_blank">   Twitter</a>
-            <br>
+            <div style="vertical-align:middle; border:green solid 3px;">
             <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" />
             <a style="font-size:20px; vertical-align:middle; color:#09b4ed" href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank">   LinkedIn</a>
-            <br>
+            </div>
             <font-awesome-icon icon="envelope" size="3x" />
             <span style="font-size:20px; vertical-align:middle; color:#09b4ed">   enquiries@cameronwickes.com</span> 
         </div>
