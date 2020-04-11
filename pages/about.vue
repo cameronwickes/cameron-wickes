@@ -16,15 +16,15 @@
           <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>
           <p>Click on some other sections to explore more!</p>
           <h3>Contact Me</h3>
-          <p>If you'd like to get in touch with me, please do so via one of the sites below:</p>
+          <p>If you'd like to get in touch with me, please do so via one of the methods below:</p>
           <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" />
-          <a href="https://twitter.com/cameronwickes0" target="_blank"><font color="09b4ed">   Twitter</font></a>
+          <a href="https://twitter.com/cameronwickes0" target="_blank"><font color="09b4ed" size="4">   Twitter</font></a>
           <br>
           <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" />
-          <a href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank"><font color="09b4ed">   LinkedIn</font></a>
+          <a href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank"><font color="09b4ed" size="5">   LinkedIn</font></a>
           <br>
           <font-awesome-icon icon="envelope" size="3x" />
-          <span>enquiries@cameronwickes.com<span>
+          <span><font color="09b4ed" size="6">   enquiries@cameronwickes.com</font><span>
         </div>
       </template>
 
