@@ -1,11 +1,10 @@
 <template>
-  <form name="ContactForm" action="/success" method="POST" data-netlify-recaptcha="true" netlify>
-    <input type="hidden" name="form-name" value="ContactForm" />
+  <form name="ContactForm" action="/success" method="POST" data-netlify-recaptcha="true" data-netlify="true">
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" placeholder="Full Name" />
+        <input name="Name"class="input is-medium" type="text" placeholder="Full Name" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -16,6 +15,7 @@
       <label class="label is-medium">Email</label>
       <div class="control has-icons-left">
         <input
+          name="Email"
           class="input is-medium"
           type="email"
           placeholder="Email Address"
@@ -30,6 +30,7 @@
       <label class="label is-medium">Subject</label>
       <div class="control has-icons-left">
         <input
+          name="Subject"
           class="input is-medium"
           type="text"
           placeholder="Summary"
@@ -44,6 +45,7 @@
       <label class="label is-medium">Message</label>
       <div class="control has-icons-left">
         <textarea
+          name="Message"
           class="textarea is-medium"
           placeholder="Detailed description of your comment, request, etc"
           rows="8"
@@ -53,6 +55,7 @@
         </span>
       </div>
     </div>
+    <div netlify-recaptcha></div>
     <div class="control">
       <button class="button is-primary is-center" type="submit">
         Contact Me
