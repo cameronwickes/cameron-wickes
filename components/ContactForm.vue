@@ -1,5 +1,5 @@
 <template>
-  <form name="ContactForm" action="" method="post" netlify>
+  <form name="ContactForm" action="/pages/success" method="POST" data-netlify-recaptcha="true" netlify>
     <input type="hidden" name="form-name" value="ContactForm" />
     <!-- Name -->
     <div class="field">
