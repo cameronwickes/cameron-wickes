@@ -1,6 +1,6 @@
 ---
 name: Tools
-image: /uploads/blur-bright-business-codes-207580.jpg
+image: /uploads/photo-of-turned-on-laptop-computer-943096.jpg
 description: Handy guides and cheatsheets for your favourite tools to help you
   progress quickly.
 ---
