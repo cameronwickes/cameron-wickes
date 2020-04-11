@@ -36,7 +36,7 @@ import { setPageData } from '../../helper'
 export default {
   head() {
     return {
-    title: `$store.state.name | ${this.$siteConfig.siteName}`
+    title: `Categories | ${this.$siteConfig.siteName}`
     }
   },
   data() {
