@@ -1,8 +1,5 @@
 <template>
-  <form name="ContactForm" action="/success" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-    <p class="hidden">
-    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-    </p>
+  <form name="ContactForm" action="/success" method="POST" data-netlify="true">
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
