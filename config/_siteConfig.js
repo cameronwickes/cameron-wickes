@@ -24,15 +24,15 @@ export default {
     },
     {
       name: 'About', //About
-      link: '/about/'
+      link: '/about'
     },
     {
       name: 'Categories', //Categories
-      link: '/categories/'
+      link: '/categories'
     },
     {
       name: 'Contact', //Contact
-      link: '/contact/'
+      link: '/contact'
     }
   ],
   hero: {
