@@ -9,11 +9,12 @@
       <template v-slot:default>
         <div class="content">
           <h3>Hi!</h3>
-          <p>I am Cameron Wickes, a 17-year-old student from Cumbria, with a love for Cybersecurity and all things computer-related. My journey started a couple of years ago, when a friend introduced me to a Cybersecurity course. Having loved Computer Science for a while, I immediately jumped at the idea.</p>
-          <p>Python is my go-to language, due to it’s flexibility and speed, but I have a background in VB.NET, and am currently learning C.  I love solving problems with a creative approach, which is why coding is such an appeal, but cybersecurity lets me combine this passion for coding with advanced theoreticality. To code well, you need a willingness to change your thinking and work collaboratively with other people. I am very much a people person, and enjoy working in teams, but can also work well individually.</p>
-          <p>Through HMG and the SANS institute, I got the chance to participate in and complete the SANS SEC504 course, which I enjoyed thoroughly. I hope to get the chance to participate in more events like these.</p>
-          <p>I am always trying to expand my knowledge of the subject, and up and coming areas are what fascinate me the most, such as User Behaviour and Entity Analytics, or Malware Analysis using Machine Learning.</p>
-          <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>
+          <p>I’m Cameron Wickes, a 17-year-old student from Cumbria, with a love for computers and information security.</p>
+          <p>My journey into infosec started a couple of years ago, when a friend introduced me to an online cybersecurity course. Having loved Computer Science throughout my seven years at secondary school, I immediately jumped at the idea had completed the course within a couple of days.</p>
+          <p>I am always trying to expand my knowledge of the subject, in whatever form that may be, but I am particularly interested in developing areas such as User Behaviour and Entity Analytics, or Malware Analysis using Machine Learning. I find this stuff really cool!</p>
+          <p>Python is my go-to programming language, due to its flexibility and speed, but I have a background in VB.NET, and am currently learning C. I enjoy solving problems with a creative approach, which is why the unlimited possibilities of coding appeal to me, but cybersecurity also allows me to delve into advanced theoretical and academic topics, which I find highly stimulating.</p>
+          <p>Through HMG and the SANS institute, I got the chance to participate in and complete the SANS SEC504 course, which I enjoyed thoroughly. I hope to get the chance to participate in more events like these over the coming years.</p>
+          <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>          
           <h3>Contact Me</h3>
             <p>If you'd like to get in touch with me, please do so via one of the methods below:</p>
             <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" style="vertical-align:middle" />
