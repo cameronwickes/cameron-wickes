@@ -11,28 +11,23 @@ This article is the first in a series of many, addressing binaries (programs) on
 
 **Callers and Callees** 
 
-In a programming language, we have functions/subroutines. They are blocks or chunks of code that perform a specific task. We can pass things into a function using ‘parameters’ and produce things from a function using ‘return values’. 
-Take a look at an example below:
+In a programming language, we have functions/subroutines. They are blocks or chunks of code that perform a specific task. We can pass things into a function using ‘parameters’ and produce things from a function using ‘return values’.  Take a look at an example below:
 
-![](/uploads/callercallee.png)
+![](/uploads/callercallee.jpg)
 
 The function sum calculates the sum of two numbers, x and y, which get passed into the function. The function uses a return value to provide the sum back to the computer. \
 Fun is separate function which doesn’t have any parameters, nor does it return a value. Inside it declares two local variables, which can only be accessed inside function. These can then be passed into functions or manipulated further but get forgotten once the function is finished. In this case, we call the sum function with the two local variables and store the return value in a new variable called sumAB. 
 
 We describe fun as the ‘caller’ function and sum as the ‘callee’ function. This terminology can also apply to multiple functions, like below:
 
-![](/uploads/callercallees.png)
+![](/uploads/callercallees.jpg)
 
 In this example, *Alpha* is a caller and *Beta* is a callee. However, *Beta* calls *Gamma*. *Beta* is therefore also a caller, and *Gamma* is a callee. \
 *Alpha* is a caller, *Beta* is both a caller and a callee, and *Gamma* is a callee. 
 
-**The Stack**
-At run-time, we need to allocate space to store all these local variables, along with other useful information about where we are in the program. 
+**The Stack** At run-time, we need to allocate space to store all these local variables, along with other useful information about where we are in the program. 
 
-
-Introducing the stack. A data structure managed by the compiler that holds all sorts of useful information during runtime. It grows down, from higher to lower address, and it operates using LIFO (Last In, First Out). This means that the most recent data item pushed on is the first to come off. 
-N.B. You may see illustrations of the stack growing upwards. This is just to help users understand the workings of the stack in a visual way but is not how it works during runtime. 
-
+Introducing the stack. A data structure managed by the compiler that holds all sorts of useful information during runtime. It grows down, from higher to lower address, and it operates using LIFO (Last In, First Out). This means that the most recent data item pushed on is the first to come off.  N.B. You may see illustrations of the stack growing upwards. This is just to help users understand the workings of the stack in a visual way but is not how it works during runtime. 
 
 There are a couple of operations of note regarding the stack:
 
@@ -47,9 +42,7 @@ There are also important registers to be aware of when looking at how programs o
 EAX, EBX, ECX, EDX, ESI, EDI, EBP, and ESP
 ```
 
-
 64-bit systems extend the eight core 32-bit registers to make them 64 bits/8 bytes long, and also add eight extra registers, R8-R15.
-
 
 ```
 RAX, RBX, RCX, RDX, RDI, RBP, RSP, R8, R9, R10, R11, R12, R13, R14, R15
