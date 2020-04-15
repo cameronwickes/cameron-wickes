@@ -13,14 +13,44 @@ This article is the first in a series of many, addressing binaries (programs) on
 
 In a programming language, we have functions/subroutines. They are blocks or chunks of code that perform a specific task. We can pass things into a function using ‘parameters’ and produce things from a function using ‘return values’.  Take a look at an example below:
 
-![](/uploads/callingcon1.jpg)
+```
+int sum(x,y) {
+    return x,y;
+}
+
+void fun() {
+    int a = 2;
+    int b = 1;
+
+    int sumAB = sum(a,b);
+    return;
+}
+```
 
 The function sum calculates the sum of two numbers, x and y, which get passed into the function. The function uses a return value to provide the sum back to the computer. \
 Fun is separate function which doesn’t have any parameters, nor does it return a value. Inside it declares two local variables, which can only be accessed inside function. These can then be passed into functions or manipulated further but get forgotten once the function is finished. In this case, we call the sum function with the two local variables and store the return value in a new variable called sumAB. 
 
 We describe fun as the ‘caller’ function and sum as the ‘callee’ function. This terminology can also apply to multiple functions, like below:
 
-![](/uploads/callingcon2.jpg)
+```
+
+void alpha() {
+    printf("Alpha!");
+    beta();
+    return;
+}
+
+void beta() {
+    printf("Beta!");
+    gamma();
+    return;
+}
+
+void gamma() {
+    printf("Gamma!");
+    return;
+}
+```
 
 In this example, *Alpha* is a caller and *Beta* is a callee. However, *Beta* calls *Gamma*. *Beta* is therefore also a caller, and *Gamma* is a callee. \
 *Alpha* is a caller, *Beta* is both a caller and a callee, and *Gamma* is a callee. 
