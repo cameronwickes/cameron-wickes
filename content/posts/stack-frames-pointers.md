@@ -13,13 +13,11 @@ Now that we’ve covered the basics of the stack, addressed in [Callers, Callees
 
 We should now know that there are eight main general-purpose registers in 32-bit systems:
 
-
 ```
 EAX, EBX, ECX, EDX, ESI, EDI, EBP, and ESP
 ```
 
 We should also know that 64-bit systems extend those eight core registers to 8 bytes, and add eight extra registers: 
-
 
 ```
 RAX, RBX, RCX, RDX, RDI, RBP, RSP, R8, R9, R10, R11, R12, R13, R14, R15
@@ -33,6 +31,8 @@ The three main registers of interest are shown below, with a description of what
 * EIP – The Extended Instruction Pointer – Points to the current instruction being executed
 * EBP – The Extended Base Pointer – Points to the top of the current stack frame (more on that in a bit)
 
+
+
 **The Stack** 
 
 The stack is space in memory, that is used during runtime to:
@@ -42,6 +42,8 @@ The stack is space in memory, that is used during runtime to:
 * Keep track of which functions were called before the current function
 
 To keep data organised, and so that the program can know what data is where, we use stack frames to keep track of where we are and what we are holding. 
+
+
 
 **Stack Frames** 
 
@@ -54,8 +56,11 @@ The stack frame is constructed like shown:
 1. Old Base Pointer (EBP) is pushed onto the stack
 2. Stack Pointer (ESP) is moved into the Base Pointer Register (EBP) to become the current stack frames’ base pointer
 3. Register values we want to save, as well as any local variables are pushed onto the stack
-4. If the function calls another function at any point, it will push the arguments in reverse order (cdecl) and then push the return address onto the stack Once inside the function, we can access our arguments from the EBP like shown:
-   mov ecx, \[%ebp + 8] // Moves the value at %ebp + 8 (base pointer + 8 bytes to account for the return address), to ecx for easier access 
+4. If the function calls another function at any point, it will push the arguments in reverse order (cdecl) and then push the return address onto the stack Once inside the function, we can access our arguments from the EBP like shown: 
+
+   ```
+   1. mov ecx, [%ebp + 8] // Moves the value at %ebp + 8 (base pointer + 8 bytes to account for the return address), to ecx for easier access
+   ```
 
 When the function finishes executing, we apply the opposite operation, and deconstruct the stack:
 
@@ -63,6 +68,8 @@ When the function finishes executing, we apply the opposite operation, and decon
 2. Base Pointer (EBP) is moved into the Stack Pointer Register (ESP)
 3. The old base pointer previously pushed is then popped off the stack and stored in (EBP), to become the new function base pointer, since previous execution will be resumed, and we need to move down a stack frame
 4. The return address is popped off the stack and stored in EIP, which resumes previous execution Since we are using x86 calling convention, it is the callers job to clean up the function parameters still laying on the stack.
+
+
 
 **Buffer Overflows** 
 
