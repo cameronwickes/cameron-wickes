@@ -13,19 +13,17 @@ This article is the first in a series of many, addressing binaries (programs) on
 
 In a programming language, we have functions/subroutines. They are blocks or chunks of code that perform a specific task. We can pass things into a function using ‘parameters’ and produce things from a function using ‘return values’.  Take a look at an example below:
 
-![](/uploads/callercallee.jpg)
+
 
 The function sum calculates the sum of two numbers, x and y, which get passed into the function. The function uses a return value to provide the sum back to the computer. \
 Fun is separate function which doesn’t have any parameters, nor does it return a value. Inside it declares two local variables, which can only be accessed inside function. These can then be passed into functions or manipulated further but get forgotten once the function is finished. In this case, we call the sum function with the two local variables and store the return value in a new variable called sumAB. 
 
 We describe fun as the ‘caller’ function and sum as the ‘callee’ function. This terminology can also apply to multiple functions, like below:
 
-![](/uploads/callercallees.jpg)
+
 
 In this example, *Alpha* is a caller and *Beta* is a callee. However, *Beta* calls *Gamma*. *Beta* is therefore also a caller, and *Gamma* is a callee. \
 *Alpha* is a caller, *Beta* is both a caller and a callee, and *Gamma* is a callee. 
-
-
 
 **The Stack** 
 
@@ -37,8 +35,6 @@ There are a couple of operations of note regarding the stack:
 
 * Push – This operation adds a supplied data item to the top of the stack
 * Pop – This operations removes a data item from the top of the stack and returns it
-
-
 
 **32 and 64-bit Registers** 
 
