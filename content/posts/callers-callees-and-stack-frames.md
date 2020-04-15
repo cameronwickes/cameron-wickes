@@ -25,7 +25,11 @@ We describe fun as the ‘caller’ function and sum as the ‘callee’ functio
 In this example, *Alpha* is a caller and *Beta* is a callee. However, *Beta* calls *Gamma*. *Beta* is therefore also a caller, and *Gamma* is a callee. \
 *Alpha* is a caller, *Beta* is both a caller and a callee, and *Gamma* is a callee. 
 
-**The Stack** At run-time, we need to allocate space to store all these local variables, along with other useful information about where we are in the program. 
+
+
+**The Stack** 
+
+At run-time, we need to allocate space to store all these local variables, along with other useful information about where we are in the program. 
 
 Introducing the stack. A data structure managed by the compiler that holds all sorts of useful information during runtime. It grows down, from higher to lower address, and it operates using LIFO (Last In, First Out). This means that the most recent data item pushed on is the first to come off.  N.B. You may see illustrations of the stack growing upwards. This is just to help users understand the workings of the stack in a visual way but is not how it works during runtime. 
 
@@ -33,6 +37,8 @@ There are a couple of operations of note regarding the stack:
 
 * Push – This operation adds a supplied data item to the top of the stack
 * Pop – This operations removes a data item from the top of the stack and returns it
+
+
 
 **32 and 64-bit Registers** 
 
