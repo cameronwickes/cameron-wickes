@@ -5,7 +5,7 @@ category:
   - Binary Exploitation
 author: Cameron Wickes
 date: 2020-04-15T21:18:37.429Z
-featureImage: /uploads/aboutmefinal.jpg
+featureImage: /uploads/sans.jpg
 ---
 In July 2019, I got the amazing opportunity to take part in a 6-day SANS GIAC course, SEC504 - Hacker Tools, Techniques, Exploits, and Incident Handling. It was a truly awesome experience, that provided a lot of great memories, as well as buckets and buckets of knowledge about the subject. 
 
