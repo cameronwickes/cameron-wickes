@@ -7,7 +7,7 @@ author: Cameron Wickes
 date: 2020-04-11T22:14:02.953Z
 featureImage: /uploads/pankaj-patel-yeaofwsdzgm-unsplash.jpg
 ---
-This article is the first in a series of many, addressing binaries (programs) on 32 and 64-bit machines and how they operate.  It does require some basic knowledge of programming, and it helps if you have a background in C. 
+*This article is the first in a series of many, addressing binaries (programs) on 32 and 64-bit machines and how they operate.  It does require some basic knowledge of programming, and it helps if you have a background in C.* 
 
 **Callers and Callees** 
 
@@ -33,7 +33,6 @@ Fun is separate function which doesn’t have any parameters, nor does it return
 We describe fun as the ‘caller’ function and sum as the ‘callee’ function. This terminology can also apply to multiple functions, like below:
 
 ```
-
 void alpha() {
     printf("Alpha!");
     beta();
