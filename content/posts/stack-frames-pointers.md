@@ -54,9 +54,9 @@ The stack frame is constructed like shown:
 3. Register values we want to save, as well as any local variables are pushed onto the stack
 4. If the function calls another function at any point, it will push the arguments in reverse order (cdecl) and then push the return address onto the stack Once inside the function, we can access our arguments from the EBP like shown: 
 
-   ```
-   1. mov ecx, [%ebp + 8] // Moves the value at %ebp + 8 (base pointer + 8 bytes to account for the return address), to ecx for easier access
-   ```
+   `mov ecx, [%ebp + 8]`
+
+   `Moves the value at %ebp + 8, to ecx for easier access. (+8 ignores the return address)`
 
 When the function finishes executing, we apply the opposite operation, and deconstruct the stack:
 
