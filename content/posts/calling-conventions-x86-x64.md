@@ -7,9 +7,9 @@ author: Cameron Wickes
 date: 2020-04-10T11:26:53.700Z
 featureImage: /uploads/markus-spiske-1llh8k2_yfk-unsplash.jpg
 ---
-Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge, especially if you haven’t got your head around the differences in registers and calling conventions. In this article, I aim to address these variations, so you can understand what you need to do differently when dealing with the respective architectures.
+*Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge, especially if you haven’t got your head around the differences in registers and calling conventions. In this article, I aim to address these variations, so you can understand what you need to do differently when dealing with the respective architectures.*
 
-If some of the terminology in this is a bit frightening, make sure to have a read of [Callers, Callees and Stack Frames](https://www.cameronwickes.com/callers-callees-and-stack-frames), a previous article which goes in depth on functions and what happens when they are called.
+*If some of the terminology in this is a bit frightening, make sure to have a read of [Callers, Callees and Stack Frames](https://www.cameronwickes.com/callers-callees-and-stack-frames), a previous article which goes in depth on functions and what happens when they are called.*
 
 ### **Calling convention**
 
@@ -52,8 +52,6 @@ The return value of the function (for both x86 and x86-64 calling conventions) i
 32-bit machines are compiled in a way that means the caller is responsible for ‘cleaning up the stack’ after the function has returned. When we called the function, we pushed the arguments, as well as the return address onto the stack. When the function returns, previous execution is resumed at the caller, but the arguments we pushed onto the stack earlier are still present. In 32-bit machines, the caller is responsible for cleaning up the stack, and removing anything that needs to be in there.
 
 On the contrary, 64-bit machines are compiled such that the callee is responsible for ‘cleaning up the stack’ before returning, meaning the stack will be in order when the execution is resumed. 
-
-
 
 ### Putting all of this together
 
