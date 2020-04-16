@@ -13,6 +13,8 @@ featureImage: /uploads/pankaj-patel-yeaofwsdzgm-unsplash.jpg
 
 In a programming language, we have functions/subroutines. They are blocks or chunks of code that perform a specific task. We can pass things into a function using ‘parameters’ and produce things from a function using ‘return values’.  Take a look at an example below:
 
+![](/uploads/caller.png)
+
 ```
 int sum(x,y) {
     return x,y;
