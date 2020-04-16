@@ -11,7 +11,7 @@ featureImage: /uploads/sans.jpg
 
 *In August, I took and passed my GCIH exam (much to my delight), with a score of 94%. I’m going to share my experiences and some lessons I learnt whilst studying and practicing for this qualification.*
 
-**The Course** 
+### **The Course** 
 
 The six-day mega-marathon of a course is a fantastic way to expand your knowledge of an area in a rapid amount of time. Each day is dynamic, unique and covers completely different ground, so if you are thinking of taking one, or have booked one, expect the unexpected, and be prepared to LEARN. Doing a SANS course is not a breeze. As many people like to say, it’s like “drinking from the fire hose”, and that’s a great description of it. The instructors are great, and the courses are designed to get you to engrain information. Instructors provide those extra levels of detail and personal anecdotes which help you remember important nuggets that you may need in the exam, so I would highly recommend booking an in-person course, because it’s not the same through a screen. Here are a few bits and pieces I picked up on how to optimise your learning experience:
 
@@ -59,7 +59,7 @@ I got to the centre about an hour and a half early, so scoped out the place, the
 
 I found the exam similar difficulty to the practice tests, but there were a few questions that tripped me up, and I had to skip a few along the way. I ended up taking 03:01:32 to complete my certification attempt, almost double the time I took on my practice tests. This was partly just to triple check with every question that I had the right answer, but there were a few tricky labs that took a bit of time. I managed to pass with a score of 94%. An excellent result.
 
-**Conclusions** 
+### **Conclusions** 
 
 The GIAC certification was one of the most interesting, and challenging learning experiences I have partaken in, and it required a lot of different techniques to overcome obstacles. 
 
