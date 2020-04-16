@@ -7,9 +7,9 @@ author: Cameron Wickes
 date: 2020-04-15T21:18:37.429Z
 featureImage: /uploads/sans.jpg
 ---
-In July 2019, I got the amazing opportunity to take part in a 6-day SANS GIAC course, SEC504 - Hacker Tools, Techniques, Exploits, and Incident Handling. It was a truly awesome experience, that provided a lot of great memories, as well as buckets and buckets of knowledge about the subject. 
+*In July 2019, I got the amazing opportunity to take part in a 6-day SANS GIAC course, SEC504 - Hacker Tools, Techniques, Exploits, and Incident Handling. It was a truly awesome experience, that provided a lot of great memories, as well as buckets and buckets of knowledge about the subject.* 
 
-In August, I took and passed my GCIH exam (much to my delight), with a score of 94%. I’m going to share my experiences and some lessons I learnt whilst studying and practicing for this qualification.
+*In August, I took and passed my GCIH exam (much to my delight), with a score of 94%. I’m going to share my experiences and some lessons I learnt whilst studying and practicing for this qualification.*
 
 **The Course** 
 
@@ -33,10 +33,9 @@ For indexing, I followed the Pancakes Indexing System developed by Hacks4Pancake
 * [Post-It Tabs](https://www.amazon.co.uk/Post-Markers-Self-adhesive-document-assorted/dp/B00H2DNLUY/ref=sr_1_4?dchild=1&keywords=post+it+tabs&qid=1586908400&s=officeproduct&sr=1-4) 
 * [Stabilo Highlighters](https://www.amazon.co.uk/Highlighter-STABILO-ORIGINAL-Assorted-Colours/dp/B01LXOQ1KJ/ref=sr_1_4?dchild=1&keywords=highlighters+pastel&qid=1586909532&s=officeproduct&sr=1-4)
 
-To start, I assigned each book a different base colour. This helped to quickly identify which book a topic is in. I then rifled through each book, placing a different coloured tab at the start of each chapter, and wrote down what the chapter was on the tab. This helped to flick to certain sections, and allowed identification of which chapter a certain topic was in. I then proceeded to read through the books with a careful eye, highlighting key words on each page. I used different colours for different types of information. For me, I used purple for commands, yellow for keywords and blue for tools, but it’s completely up to you.
-Following that, I filled in my excel index with the book, page number, keyword and description. Shown below is an excerpt so you can see the style I went for:
+To start, I assigned each book a different base colour. This helped to quickly identify which book a topic is in. I then rifled through each book, placing a different coloured tab at the start of each chapter, and wrote down what the chapter was on the tab. This helped to flick to certain sections, and allowed identification of which chapter a certain topic was in. I then proceeded to read through the books with a careful eye, highlighting key words on each page. I used different colours for different types of information. For me, I used purple for commands, yellow for keywords and blue for tools, but it’s completely up to you. Following that, I filled in my excel index with the book, page number, keyword and description. Shown below is an excerpt so you can see the style I went for:
 
-![]()
+![](/uploads/giacindex.png)
 
 N.B. Make sure to read through every part of the page when indexing. Quite often questions will test what’s in the note section at the bottom, and not what is on the slide, so make sure to read THOROUGHLY.  
 
