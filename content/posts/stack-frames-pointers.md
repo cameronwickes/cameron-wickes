@@ -7,7 +7,7 @@ author: Cameron Wickes
 date: 2020-04-15T20:57:07.206Z
 featureImage: /uploads/bufferoverflowstackframes.jpg
 ---
-Now that we’ve covered the basics of the stack, addressed in [Callers, Callees, Functions and Registers](https://www.cameronwickes.com/callers-callees-and-stack-frames), we can start to move onto more complex low-level operations and how the stack is made up. For the sake of simplicity, I will illustrate x86 calling convention in this article, but do be aware that in 64-bit binaries, the arguments may not appear on the stack. Read more [here](https://www.cameronwickes.com/calling-conventions-x86-x64).
+*Now that we’ve covered the basics of the stack, addressed in [Callers, Callees, Functions and Registers](https://www.cameronwickes.com/callers-callees-and-stack-frames), we can start to move onto more complex low-level operations and how the stack is made up. For the sake of simplicity, I will illustrate x86 calling convention in this article, but do be aware that in 64-bit binaries, the arguments may not appear on the stack. Read more [here](https://www.cameronwickes.com/calling-conventions-x86-x64).*
 
 **Important Registers** 
 
@@ -31,8 +31,6 @@ The three main registers of interest are shown below, with a description of what
 * EIP – The Extended Instruction Pointer – Points to the current instruction being executed
 * EBP – The Extended Base Pointer – Points to the top of the current stack frame (more on that in a bit)
 
-
-
 **The Stack** 
 
 The stack is space in memory, that is used during runtime to:
@@ -42,8 +40,6 @@ The stack is space in memory, that is used during runtime to:
 * Keep track of which functions were called before the current function
 
 To keep data organised, and so that the program can know what data is where, we use stack frames to keep track of where we are and what we are holding. 
-
-
 
 **Stack Frames** 
 
@@ -68,8 +64,6 @@ When the function finishes executing, we apply the opposite operation, and decon
 2. Base Pointer (EBP) is moved into the Stack Pointer Register (ESP)
 3. The old base pointer previously pushed is then popped off the stack and stored in (EBP), to become the new function base pointer, since previous execution will be resumed, and we need to move down a stack frame
 4. The return address is popped off the stack and stored in EIP, which resumes previous execution Since we are using x86 calling convention, it is the callers job to clean up the function parameters still laying on the stack.
-
-
 
 **Buffer Overflows** 
 
