@@ -36,9 +36,7 @@ import { setPageData } from '../../helper'
 export default {
   head() {
     return {
-    fetch({ store, params }) {
      title: `${this.$route.fullPath} | ${this.$siteConfig.siteName}`
-    },
     }
   },
   data() {
