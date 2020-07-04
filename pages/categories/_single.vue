@@ -37,7 +37,7 @@ export default {
   head() {
     return {
     fetch({ store, params }) {
-     title: `params.single | ${this.$siteConfig.siteName}`
+     title: `${this.$route.fullPath} | ${this.$siteConfig.siteName}`
     },
     }
   },
