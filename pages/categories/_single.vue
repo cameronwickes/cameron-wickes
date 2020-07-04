@@ -40,7 +40,7 @@ export default {
   head() {
     categorySlugTitle = capitalizeFirstLetter(this.$route.params.single)
     return {
-     title: `${categorySlugTitle} | ${this.$siteConfig.siteName}`
+     title: `${this.categorySlugTitle} | ${this.$siteConfig.siteName}`
     }
   },
   data() {
