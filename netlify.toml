@@ -5,9 +5,10 @@
   NODE_VERSION = "11"
 [[plugins]]
   package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-  buildDir = "public"
+  
+	[plugins.inputs]
+	
+	buildDir = "public"
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
