@@ -36,7 +36,7 @@ import { setPageData } from '../../helper'
 export default {
   head() {
     return {
-    title: `${params.single} | ${this.$siteConfig.siteName}`
+    title: `$params.single | ${this.$siteConfig.siteName}`
     }
   },
   data() {
