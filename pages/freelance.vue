@@ -2,7 +2,7 @@
   <div id="freelance-page" class="page-wrapper freelance-page content-page">
     <site-hero
       title="Freelance"
-      subtitle="Need help on a project?"
+      subtitle="Need help with a project?"
       image="/uploads/aboutmefinal.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
