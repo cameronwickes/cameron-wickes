@@ -3,7 +3,7 @@
     <site-hero
       title="Freelance"
       subtitle="Need help with a project?"
-      image="/uploads/Freelance.jpg"
+      image="/uploads/freelance.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
