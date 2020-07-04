@@ -13,11 +13,10 @@
           <p>My journey into infosec started a couple of years ago, when a friend introduced me to an online cybersecurity course. Having loved Computer Science throughout my seven years at secondary school, I immediately jumped at the idea had completed the course within a couple of days.</p>
           <p>I am always trying to expand my knowledge of the subject, in whatever form that may be, but I am particularly interested in developing areas such as User Behaviour and Entity Analytics, or Malware Analysis using Machine Learning. I find this stuff really cool!</p>
           <p>Python is my go-to programming language, due to its flexibility and speed, but I have a background in VB.NET, and am currently learning C. I enjoy solving problems with a creative approach, which is why the unlimited possibilities of coding appeal to me, but cybersecurity also allows me to delve into advanced theoretical and academic topics, which I find highly stimulating.</p>
-          <p>Through HMG and the SANS institute, I got the chance to <a href="https://www.youracclaim.com/users/cameron-wickes/">participate in and complete the SANS SEC504 and SEC503 courses</a>, which I enjoyed thoroughly. I hope to get the chance to participate in more events like these over the coming years.</p>
+          <p>Through HMG and the SANS institute, I got the chance to <a style="color:#09b4ed"href="https://www.youracclaim.com/users/cameron-wickes/">participate in and complete the SANS SEC504 and SEC503 courses</a>, which I enjoyed thoroughly. I hope to get the chance to participate in more events like these over the coming years.</p>
           <p>This blog serves as a space to share and collate my personal learning experiences as I progress in the field, in the hopes to provide a space where up and coming enthusiasts can find relevant material.</p>          
           <h3>Contact Me</h3>
             <p>If you'd like to get in touch with me, please do so via one of the methods below:</p>
-            <a style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed" href="https://www.youracclaim.com/users/cameron-wickes/" target="_blank">   Acclaim</a>
             <font-awesome-icon :icon="{prefix: 'fab',iconName: 'twitter'}" size="3x" style="vertical-align:middle" />
             <a style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed" href="https://twitter.com/cameronjwickes" target="_blank">   Twitter</a>
             <br>
