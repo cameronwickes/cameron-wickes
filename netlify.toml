@@ -9,7 +9,7 @@
 	[plugins.inputs]
 	
 	buildDir = "dist"
-	exclude = ['./dist/admin.html']
+	exclude = ['./dist/admin','./dist/200']
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
