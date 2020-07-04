@@ -8,7 +8,7 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Freelance Work</h3>
+          <h3>What can I help you with?</h3>
           <p>Need help designing a website? Have an old computer that needs upgrading?</p>
           <p>I offer a range of technical services including but not limited to:</p>
           <ul>
