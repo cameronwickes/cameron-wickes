@@ -38,7 +38,7 @@ function capitalizeFirstLetter(string) {
 }
 export default {
   head() {
-    categorySlugTitle = capitalizeFirstLetter(this.route.params.single)
+    categorySlugTitle = capitalizeFirstLetter($route.params.single)
     return {
      title: `${this.$categorySlugTitle} | ${this.$siteConfig.siteName}`
     }
