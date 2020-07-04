@@ -33,14 +33,10 @@
 </template>
 <script>
 import { setPageData } from '../../helper'
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1)
-}
-categorySlugTitle = capitalizeFirstLetter(this.$route.params.single)
 export default {
   head() {
     return {
-     title: `${this.categorySlugTitle} | ${this.$siteConfig.siteName}`
+     title: `${this.$store.state.name} | ${this.$siteConfig.siteName}`
     }
   },
   data() {
