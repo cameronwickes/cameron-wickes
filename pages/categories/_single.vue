@@ -36,7 +36,7 @@ import { setPageData } from '../../helper'
 export default {
   head() {
     return {
-     title: `${this.$route.params.single} | ${this.$siteConfig.siteName}`
+     title: `${this.$route.cat.slug} | ${this.$siteConfig.siteName}`
     }
   },
   data() {
