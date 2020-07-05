@@ -10,7 +10,7 @@
 .full-width-testimonial-icon {
   .quote-path {
     fill:none;
-    stroke: $full-width-testimonial-quote-color;
+    stroke: #ffffff;
     stroke-width:2.5192;
     stroke-miterlimit:10;
   }
@@ -21,7 +21,7 @@
   text-align: center;
 }
 .full-width-testimonial-section {
-  padding-top: $full-width-testimonial-vertical-padding;
+  padding-top: 2rem;
   
   .full-width-testimonial-text {
     font-weight: 300;
@@ -90,7 +90,7 @@
 .full-width-testimonial-content,
 .full-width-testimonial-source,
 .full-width-testimonial-icon {
-  padding-bottom: $full-width-testimonial-vertical-padding;
+  padding-bottom: 2rem;
 }
 
 .full-width-testimonial-content {
