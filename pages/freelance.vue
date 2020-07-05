@@ -21,7 +21,7 @@
           <p>Thank you!</p>
           <h3>Testimonials</h3>
           <p>Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!</p>
-          <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url("https://unsplash.it/2000/1200/?image=1011");">
+          <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url(&quot;https://unsplash.it/2000/1200/?image=1011&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
