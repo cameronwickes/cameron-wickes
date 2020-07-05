@@ -17,7 +17,7 @@
           <li>App Development</li>
           <li>Computer Hardware Upgrades</li>
           </ul>
-          <p>If you have a project that you'd like me to be a part of, want to see if I offer a service or want to discuss specific requirements, please get in touch at <span style='color:#09b4ed'>enquiries@cameronwickes.com.</span>
+          <p>If you have a project that you'd like me to be a part of, want to see if I offer a service or want to discuss specific requirements, please get in touch at <span style='color:#09b4ed'>enquiries@cameronwickes.com.</span></p>
           <p>Thank you!</p>
           <h3>Recent Projects</h3>
           <h3>Testimonials</h3>
