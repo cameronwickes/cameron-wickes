@@ -20,7 +20,7 @@
           <p>If you have a project that you'd like me to be a part of, want to see if I offer a service or want to discuss specific requirements, please get in touch at <span style='color:#09b4ed'>enquiries@cameronwickes.com.</span>
           <p>Thank you!</p>
           <h3>Testimonials</h3>
-          <p>Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!</p>
+          <br/>
           <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url(&quot;https://www.cameronwickes.com/_nuxt/uploads/e7c0cb4-640.png&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
@@ -35,8 +35,8 @@
               <div class="full-width-testimonial-content">
                 <h5 class="full-width-testimonial-text">Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!
                 </h5>
-                <p class="full-width-testimonial-source">Gavin Newman</p>
-                <span class="full-width-testimonial-source-context">Traveled from San Francisco to Lake Tahoe</span>
+                <p class="full-width-testimonial-source">Marion Plowright</p>
+                <span class="full-width-testimonial-source-context"><a href="https://thekeatsproject.org.uk">Website Development - The Keats Project</a></span>
               </div>
             </div>
           </div> 
