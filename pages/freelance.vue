@@ -36,7 +36,7 @@
                 <h5 class="full-width-testimonial-text">Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!
                 </h5>
                 <p class="full-width-testimonial-source">Marion Plowright</p>
-                <span class="full-width-testimonial-source-context"><a href="https://thekeatsproject.org.uk">Website Development - The Keats Project</a></span>
+                <span class="full-width-testimonial-source-context"><a href="https://thekeatsproject.org.uk" style="color:#FFFFFF;" target="_blank">Website Development - The Keats Project</a></span>
               </div>
             </div>
           </div> 
