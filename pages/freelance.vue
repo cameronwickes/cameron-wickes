@@ -20,6 +20,7 @@
           <p>If you have a project that you'd like me to be a part of, want to see if I offer a service or want to discuss specific requirements, please get in touch at <span style='color:#09b4ed'>enquiries@cameronwickes.com.</span>
           <p>Thank you!</p>
           <h3>Testimonials</h3>
+          <p>Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!</p>
           <div class="full-width-testimonial">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
