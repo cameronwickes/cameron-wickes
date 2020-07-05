@@ -19,7 +19,7 @@
           </ul>
           <p>If you have a project that you'd like me to be a part of, want to see if I offer a service or want to discuss specific requirements, please get in touch at <span style='color:#09b4ed'>enquiries@cameronwickes.com.</span>
           <p>Thank you!</p>
-          <h3>Testimonials</h3>
+          <h3>Testimonials & Recent Projects</h3>
           <br>
           <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url(&quot;https://www.cameronwickes.com/_nuxt/uploads/e7c0cb4-640.png&quot;);">
             <div class="full-width-testimonial-section">
