@@ -7,6 +7,9 @@ $primary-invert: findColorInvert($primary);
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
 
+$full-width-testimonial-quote-color: $warning-color;
+$full-width-testimonial-vertical-padding: 2rem;
+
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
   "white": ($white, $black),
