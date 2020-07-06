@@ -66,7 +66,7 @@
               <div class="full-width-testimonial-icon text-center">
                 <font-awesome-icon :icon="['fas', 'align-justify']" />
                 <font-awesome-icon :icon="['fas', 'book']" />
-                <font-awesome-icon :icon="['fas', 'brush']" /
+                <font-awesome-icon :icon="['fas', 'brush']" />
                 <font-awesome-icon :icon="['fas', 'clipboard']" />
                 <font-awesome-icon :icon="['fas', 'clipboard-list']" />
                 <font-awesome-icon :icon="['fas', 'desktop']" />
