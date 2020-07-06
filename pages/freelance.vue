@@ -25,7 +25,7 @@
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                   width="51px" height="44px" viewBox="-235 240 41 34" style="enable-background:new -235 240 41 34;" xml:space="preserve">
+                   width="41px" height="34px" viewBox="-235 240 41 34" style="enable-background:new -235 240 41 34;" xml:space="preserve">
                     <path class="quote-path" d="M-231.3,260.4c0-5,1.3-8.8,3.7-11.7c2.4-2.8,6-4.6,10.5-5.5v5c-3.5,1-6,2.8-7.1,5.5c-0.7,1.4-0.9,2.8-0.8,4
                       h8.1v12.8h-14.4V260.4z"/>
                     <path class="quote-path" d="M-212,260.4c0-5,1.3-8.8,3.7-11.7c2.4-2.8,6-4.6,10.5-5.5v5c-3.5,1-6,2.8-7.1,5.5c-0.7,1.4-0.9,2.8-0.8,4h8.1
@@ -64,7 +64,7 @@
           <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url(&quot;https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/ViewFromTheBed.jpg&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
-                <svg width="41" height="34" viewBox="0 0 16 16" class="bi bi-file-earmark-text-fill" fill="white" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 3a2 2 0 0 1 2-2h5.293a1 1 0 0 1 .707.293L13.707 5a1 1 0 0 1 .293.707V13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3zm7 2V2l4 4h-3a1 1 0 0 1-1-1zM4.5 8a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/></svg>
+                <svg width="51" height="44" viewBox="0 0 16 16" class="bi bi-file-earmark-text-fill" fill="white" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 3a2 2 0 0 1 2-2h5.293a1 1 0 0 1 .707.293L13.707 5a1 1 0 0 1 .293.707V13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3zm7 2V2l4 4h-3a1 1 0 0 1-1-1zM4.5 8a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/></svg>
               </div>
               <div class="full-width-testimonial-content">
                 <h5 class="full-width-testimonial-text"></h5>
