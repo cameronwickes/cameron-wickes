@@ -65,6 +65,7 @@
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
                 <font-awesome-icon :icon="{prefix: 'far',iconName: 'file-alt'}" size="3x" style="vertical-align:middle;color:white;" />
+                <font-awesome-icon :icon="{prefix: 'fas',iconName: 'file-signature'}" size="3x" style="vertical-align:middle;color:white;" />
                 <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" style="vertical-align:middle;color:white;" />
               </div>
               <div class="full-width-testimonial-content">
