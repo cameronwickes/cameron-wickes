@@ -71,4 +71,4 @@
 	  # A cron-like expression that expresses when a deployment can occur
 	  expression = "* * * * *"
 	  # tz database value that expresses the timezone of the expression
-	  timezone = "United Kingdom"
+	  timezone = "GMT"
