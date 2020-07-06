@@ -60,6 +60,26 @@
               </div>
             </div>
           </div> 
+          <br>
+          <br>
+          <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url(&quot;https://www.cameronwickes.com/_nuxt/uploads/e7c0cb4-640.png&quot;);">
+            <div class="full-width-testimonial-section">
+              <div class="full-width-testimonial-icon text-center">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   width="41px" height="34px" viewBox="-235 240 41 34" style="enable-background:new -235 240 41 34;" xml:space="preserve">
+                    <path class="quote-path" d="M-231.3,260.4c0-5,1.3-8.8,3.7-11.7c2.4-2.8,6-4.6,10.5-5.5v5c-3.5,1-6,2.8-7.1,5.5c-0.7,1.4-0.9,2.8-0.8,4
+                      h8.1v12.8h-14.4V260.4z"/>
+                    <path class="quote-path" d="M-212,260.4c0-5,1.3-8.8,3.7-11.7c2.4-2.8,6-4.6,10.5-5.5v5c-3.5,1-6,2.8-7.1,5.5c-0.7,1.4-0.9,2.8-0.8,4h8.1
+                      v12.8H-212V260.4z"/>
+                </svg>
+              </div>
+              <div class="full-width-testimonial-content">
+                <h5 class="full-width-testimonial-text">Cameron Wickes is professional, extremely knowledgeable and thorough. He upgraded my old laptop, significantly increasing its capability and boot up times, saving me the purchase of a new machine. He wrote detailed reports pre and post upgrade which helped me understand exactly what work had been done. He also built my website, providing not only the technical knowhow, but also ideas on design and user accessibility. Cameron is reliable and honest about what can be achieved. At every stage in his work on my website he gave me several options to consider, pointing out advantages and disadvantages of each. He is friendly, easy to deal with and gets the work done when he says he will. I would thoroughly recommend working with him.</h5>
+                <p class="full-width-testimonial-source">Janet Nutall</p>
+                <span class="full-width-testimonial-source-context">Graphic Design</a></span>
+              </div>
+            </div>
+          </div> 
         </div>
       </template>
 
