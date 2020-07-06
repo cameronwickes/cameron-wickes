@@ -68,8 +68,8 @@
               </div>
               <div class="full-width-testimonial-content">
                 <h5 class="full-width-testimonial-text"></h5>
-                <p class="full-width-testimonial-source"></p>
-                <span class="full-width-testimonial-source-context"></span>
+                <p class="full-width-testimonial-source">Kirkby Lonsdale Tourism</p>
+                <span class="full-width-testimonial-source-context">Graphic Design</span>
               </div>
             </div>
           </div>
