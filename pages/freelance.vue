@@ -42,7 +42,7 @@
           </div>
           <br>
           <br>
-          <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url(&quot;https://www.cameronwickes.com/_nuxt/uploads/e7c0cb4-640.png&quot;);">
+          <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url(&quot;https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/VFTB.jpeg&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
