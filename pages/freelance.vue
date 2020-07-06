@@ -36,13 +36,13 @@
                 <h5 class="full-width-testimonial-text">Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!
                 </h5>
                 <p class="full-width-testimonial-source">Marion Plowright</p>
-                <span class="full-width-testimonial-source-context"><a href="https://thekeatsproject.org.uk" style="color:#FFFFFF;" target="_blank">Website Development - The Keats Project</a></span>
+                <span class="full-width-testimonial-source-context"><a href="https://thekeatsproject.org.uk" style="color:#FFFFFF;text-decoration:underline;" target="_blank">Website Development - The Keats Project</a></span>
               </div>
             </div>
           </div>
           <br>
           <br>
-          <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.1)), url(&quot;https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/VFTB.jpeg&quot;);">
+          <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(&quot;https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/VFTB.jpeg&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
