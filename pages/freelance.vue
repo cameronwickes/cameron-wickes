@@ -66,7 +66,9 @@
               <div class="full-width-testimonial-icon text-center">
                 <font-awesome-icon icon="envelope" />
                 <font-awesome-icon :icon="['fas', 'envelope']" />
-              
+                <font-awesome-icon :icon="['fas', 'file-alt']" />
+                <font-awesome-icon :icon="['fas', 'file-signature']" />
+                <font-awesome-icon :icon="['fas', 'file-contract']" />
                 <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" style="vertical-align:middle;color:white;" />
               </div>
               <div class="full-width-testimonial-content">
