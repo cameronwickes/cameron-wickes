@@ -54,9 +54,8 @@
                 </svg>
               </div>
               <div class="full-width-testimonial-content">
-                <h5 class="full-width-testimonial-text">Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!
-                </h5>
-                <p class="full-width-testimonial-source">Fiona Elliott</p>
+                <h5 class="full-width-testimonial-text">Cameron Wickes is professional, extremely knowledgeable and thorough. He upgraded my old laptop, significantly increasing its capability and boot up times, saving me the purchase of a new machine. He wrote detailed reports pre and post upgrade which helped me understand exactly what work had been done. He also built my website, providing not only the technical knowhow, but also ideas on design and user accessibility. Cameron is reliable and honest about what can be achieved. At every stage in his work on my website he gave me several options to consider, pointing out advantages and disadvantages of each. He is friendly, easy to deal with and gets the work done when he says he will. I would thoroughly recommend working with him.</h5>
+                <p class="full-width-testimonial-source">Fiona Steggles - Senior Lecturer (UCLan) and Media Consultant</p>
                 <span class="full-width-testimonial-source-context">Website Development & Computer Upgrade</a></span>
               </div>
             </div>
