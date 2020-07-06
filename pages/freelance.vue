@@ -33,10 +33,9 @@
                 </svg>
               </div>
               <div class="full-width-testimonial-content">
-                <h5 class="full-width-testimonial-text">Lake Tahoe is the most beautiful place I have ever been to. I have traveled several places in the world, and there might be more beautiful places out there, but none that I have seen. I loved it!
-                </h5>
-                <p class="full-width-testimonial-source">Marion Plowright</p>
-                <span class="full-width-testimonial-source-context"><a href="https://thekeatsproject.org.uk" style="color:#FFFFFF;text-decoration:underline;" target="_blank">Website Development - The Keats Project</a></span>
+                <h5 class="full-width-testimonial-text">I am delighted with every aspect of Cameron's work in creating a website for The Keats Project. From the first meeting, to the launch of the site, his level of knowledge and personal engagement was extraordinary. Cameron was a pleasure to deal with and brought a level of creativity and expertise to the project that far exceeded my expectations.</h5>
+                <p class="full-width-testimonial-source">Marion Plowright - Theatre and Arts Education Specialist</p>
+                <span class="full-width-testimonial-source-context"><a href="https://thekeatsproject.org.uk" style="color:#FFFFFF;" target="_blank">Website Development - <u>The Keats Project</u></a></span>
               </div>
             </div>
           </div>
