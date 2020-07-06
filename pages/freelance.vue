@@ -64,9 +64,7 @@
           <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url(&quot;https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/ViewFromTheBed.jpg&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
-                <font-awesome-icon icon="file-text-o" size="3x" style="vertical-align:middle;color:white;"/>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                <font-awesome-icon :icon="{prefix: 'far',iconName: 'file-alt'}" size="3x" style="vertical-align:middle;color:white;" />
                 <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" style="vertical-align:middle;color:white;" />
               </div>
               <div class="full-width-testimonial-content">
