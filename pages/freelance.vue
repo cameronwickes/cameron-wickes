@@ -64,24 +64,9 @@
           <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url(&quot;https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/ViewFromTheBed.jpg&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
-                <font-awesome-icon :icon="['fas', 'align-justify']" />
-                <font-awesome-icon :icon="['fas', 'book']" />
-                <font-awesome-icon :icon="['fas', 'brush']" />
-                <font-awesome-icon :icon="['fas', 'clipboard']" />
-                <font-awesome-icon :icon="['fas', 'clipboard-list']" />
-                <font-awesome-icon :icon="['fas', 'desktop']" />
-                <font-awesome-icon :icon="['fas', 'file']" />
-                <font-awesome-icon :icon="['fas', 'file-contract']" />
-                <font-awesome-icon :icon="['fas', 'folder']" />
-                <font-awesome-icon :icon="['fas', 'folder-minus']" />
-                <font-awesome-icon :icon="['fas', 'greater-than-equal']" />
-                <font-awesome-icon :icon="['fas', 'marker']" />
-                <font-awesome-icon :icon="['fas', 'mouse']" />
-                <font-awesome-icon :icon="['fas', 'mouse-pointer']" />
-                <font-awesome-icon :icon="['fas', 'paperclip']" />
-                <font-awesome-icon :icon="['fas', 'pen']" />
-                <font-awesome-icon :icon="['fas', 'cogs']" />
-                <font-awesome-icon :icon="['fas', 'code']" />
+                <font-awesome-icon :icon="['fas', 'coffee']" />
+                <font-awesome-icon :icon="['fas', 'envelope']" />
+                <font-awesome-icon :icon="['fab', 'twitter']" />
                 <font-awesome-icon :icon="{prefix: 'fab',iconName: 'linkedin'}" size="3x" style="vertical-align:middle;color:white;" />
               </div>
               <div class="full-width-testimonial-content">
