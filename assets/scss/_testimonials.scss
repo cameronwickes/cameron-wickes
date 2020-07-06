@@ -43,6 +43,11 @@
       padding-right: 180px;
       font-size: 1.8em;
     }
+    
+    @media screen and (min-width: xlarge) {
+      padding-left: 300px;
+      padding-right: 300px;
+    }
   }
   
   .full-width-testimonial-source {
