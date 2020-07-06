@@ -64,6 +64,7 @@
           <div class="full-width-testimonial" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url(&quot;https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/ViewFromTheBed.jpg&quot;);">
             <div class="full-width-testimonial-section">
               <div class="full-width-testimonial-icon text-center">
+                <font-awesome-icon :icon="['fas', 'file']" />
                 <font-awesome-icon :icon="['fas', 'envelope']" />
                 <font-awesome-icon :icon="['fas', 'folder']" />
                 <font-awesome-icon :icon="['fas', 'pencil-alt']" />
