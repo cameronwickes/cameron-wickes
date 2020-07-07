@@ -69,7 +69,7 @@
               <div class="full-width-testimonial-content">
                 <h5 class="full-width-testimonial-text">Created a series of graphics for the Kirkby Lonsdale Easter Trail 2020.</h5>
                 <p class="full-width-testimonial-source">Kirkby Lonsdale CIC</p>
-                <span class="full-width-testimonial-source-context">Graphic Design - <a href="/uploads/KirkbyLonsdaleEasterTrailCIC.pdf" style="color:#FFFFFF;text-decoration:underline;" target="_blank">Easter Trail</a></span>
+                <span class="full-width-testimonial-source-context">Graphic Design - <a href="https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/KirkbyLonsdaleEasterTrailCIC.pdf" style="color:#FFFFFF;text-decoration:underline;" target="_blank">Easter Trail</a></span>
               </div>
             </div>
           </div>
