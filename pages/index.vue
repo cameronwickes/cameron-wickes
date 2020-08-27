@@ -1,3 +1,7 @@
+<meta property='og:title' content='Cameron Wickes'/>
+<meta property='og:image' content='https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/favicon.png'/>
+<meta property='og:description' content='Personal Website'/>
+<meta property='og:url' content='https://www.cameronwickes.com/'/>
 <template>
   <div id="home-page" class="page-wrapper home-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
