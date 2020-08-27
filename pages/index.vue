@@ -1,13 +1,5 @@
 <template>
-  <meta property='og:title' content='Cameron Wickes'/>
-  <meta property='og:image' content='https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/faviconFinal.png'/>
-  <meta property='og:description' content='Personal Website'/>
-  <meta property='og:url' content='https://www.cameronwickes.com/'/>
   <div id="home-page" class="page-wrapper home-page">
-    <meta property='og:title' content='Cameron Wickes'/>
-    <meta property='og:image' content='https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/faviconFinal.png'/>
-    <meta property='og:description' content='Personal Website'/>
-    <meta property='og:url' content='https://www.cameronwickes.com/'/>
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
     <button
         class="button is-primary"
@@ -27,15 +19,8 @@
     </main-section>
     <news-letter-form-modal />
   </div>
-  <meta property='og:title' content='Cameron Wickes'/>
-  <meta property='og:image' content='https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/faviconFinal.png'/>
-  <meta property='og:description' content='Personal Website'/>
-  <meta property='og:url' content='https://www.cameronwickes.com/'/>
 </template>
-<meta property='og:title' content='Cameron Wickes'/>
-<meta property='og:image' content='https://cameron-wickes-blog.s3.eu-west-2.amazonaws.com/faviconFinal.png'/>
-<meta property='og:description' content='Personal Website'/>
-<meta property='og:url' content='https://www.cameronwickes.com/'/>
+
 <script>
 import { mapState } from 'vuex'
 import { setPageData } from '../helper'
