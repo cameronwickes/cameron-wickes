@@ -29,10 +29,6 @@ export default {
     {
       name: 'Categories', //Categories
       link: '/categories'
-    },
-    {
-      name: 'Freelance', //Freelance
-      link: '/freelance'
     }
   ],
   hero: {
