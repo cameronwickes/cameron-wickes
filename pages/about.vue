@@ -9,7 +9,7 @@
       <template v-slot:default>
         <div class="content">
           <h3>Hi!</h3>
-          <p>I’m Cameron Wickes, an 19-year-old studying CyberSecurity at the University of Warwick.</p>
+          <p>I’m Cameron Wickes, a 19-year-old studying CyberSecurity at the University of Warwick.</p>
           <p>My journey into infosec started a couple of years ago, when a friend introduced me to an online cybersecurity course. Having loved Computer Science throughout my seven years at secondary school, I immediately jumped at the idea had completed the course within a couple of days.</p>
           <p>I am always trying to expand my knowledge of the subject, in whatever form that may be, but I am particularly interested in developing areas such as User Behaviour and Entity Analytics, or Malware Analysis using Machine Learning. I find this stuff really cool!</p>
           <p>Python is my go-to programming language, due to its flexibility and speed, but I have a background in VB.NET, and am currently learning C. I also have proficiency in Javascript. I enjoy solving problems with a creative approach, which is why the unlimited possibilities of coding appeal to me, but cybersecurity also allows me to delve into advanced theoretical and academic topics, which I find highly stimulating.</p>
