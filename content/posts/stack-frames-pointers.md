@@ -7,7 +7,7 @@ author: Cameron Wickes
 date: 2020-04-15T20:57:07.206Z
 featureImage: /uploads/bufferoverflowstackframes.jpg
 ---
-*Now that we’ve covered the basics of the stack, addressed in [Callers, Callees, Functions and Registers](https://www.cameronwickes.com/callers-callees-and-stack-frames), we can start to move onto more complex low-level operations and how the stack is made up. For the sake of simplicity, I will illustrate x86 calling convention in this article, but do be aware that in 64-bit binaries, the arguments may not appear on the stack. Read more [here](https://www.cameronwickes.com/calling-conventions-x86-x64).*
+*Now that we’ve covered the basics of the stack, addressed in [Callers, Callees, Functions and Registers](https://www.cameronwickes.com/callers-callees-and-stack-frames), we can start to move onto more complex low-level operations and how the stack is made up. For the sake of simplicity, I will illustrate x86 calling convention in this article, but do be aware that in 64-bit binaries, the arguments may not appear on the stack. Read more [here](https://www.cameronwickes.co.uk/calling-conventions-x86-x64).*
 
 **Important Registers** 
 
