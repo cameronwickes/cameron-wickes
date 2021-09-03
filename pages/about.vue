@@ -24,7 +24,7 @@
             <a style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed" href="https://www.linkedin.com/in/cameron-wickes-7b32aa192/" target="_blank">    LinkedIn</a>
             <br>
             <font-awesome-icon icon="envelope" size="3x" style="vertical-align:middle"/>
-            <span style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed">   enquiries@cameronwickes.com</span> 
+            <span style="font-size:20px; font-weight:bold; vertical-align:middle; color:#09b4ed">   enquiries@cameronwickes.co.uk</span> 
         </div>
       </template>
 
