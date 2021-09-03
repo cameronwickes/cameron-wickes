@@ -9,7 +9,7 @@ featureImage: /uploads/markus-spiske-1llh8k2_yfk-unsplash.jpg
 ---
 *Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge, especially if you haven’t got your head around the differences in registers and calling conventions. In this article, I aim to address these variations, so you can understand what you need to do differently when dealing with the respective architectures.*
 
-*If some of the terminology in this is a bit frightening, make sure to have a read of [Callers, Callees and Stack Frames](https://www.cameronwickes.com/callers-callees-and-stack-frames), a previous article which goes in depth on functions and what happens when they are called.*
+*If some of the terminology in this is a bit frightening, make sure to have a read of [Callers, Callees and Stack Frames](https://www.cameronwickes.co.uk/callers-callees-and-stack-frames), a previous article which goes in depth on functions and what happens when they are called.*
 
 ### **Calling convention**
 
