@@ -4,23 +4,20 @@ subtitle: 24 Cyber Doors
 category:
   - Experiences
 author: Cameron Wickes
-date: 2021-12-29T19:37:41.260Z
+date: 2021-12-25T07:00:00.000Z
 featureImage: /uploads/image-1-1024x512.png
 ---
 *Every day, from the 1st up to the 24th of December, the folks over at River Security released a small capture the flag (CTF) challenge for members of the community to solve. The goal was to solve as many doors from the advent calendar over at <https://rsxc.no> as possible, and submit the write-up by December 27th.*
 
 
 
-And with that, our advent challenge is complete! Huge shout-out to the team over at River Security, I had a blast\
-completing these daily challenges - you’ve definitely earned yourselves a break!
-
 ### General Information
 
 Every day, at 00:00 UTC, a new advent door was opened, containing a bite-sized cyber security challenge for participants to solve. Those who submitted a write-up before the deadline were judged, with the winners receiving the following prizes:
 
-* 🥇 1st: A 12 month Burp Suite License; the de facto tool for web application penetration testers
-* 🥈 2nd: 4k Apple TV for all your streaming delights.  
-* 🥉 3rd: Onyx Studio 4 speaker system.
+🥇 1st: A 12 month Burp Suite License; the de facto tool for web application penetration testers
+🥈 2nd: 4k Apple TV for all your streaming delights.  
+🥉 3rd: Onyx Studio 4 speaker system.
 
 
 
@@ -56,7 +53,6 @@ However, out of all 10 finalists, there had to be one winner; To my surprise, it
 ### Write-up
 
 If you'd like to view my winning write-up, you can do so over at the following link:
-
-[Winning Writeup](<https://www.cameronwickes.co.uk/RSXC-Challenges.pdf)
+<https://www.cameronwickes.co.uk/RSXC-Challenges.pdf>
 
 Looking forward to next year!
