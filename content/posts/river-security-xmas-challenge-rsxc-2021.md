@@ -43,11 +43,11 @@ If you want to tackle any of the challenges yourself, the guys over at River Sec
 
 I had a blast completing these daily challenges, and will certainly participate next year. This is what the River Security team had to say about the success of their creation:
 
-> In total we had 10 finalists, all of whom managed to solve every single challenge, including many who solved some of the bonus unintended vulnerabilities which were introduced. Overall, we’ve had hundreds of participants trying out the advent calendar, and superb efforts all around. From our 10 finalists it was an extremely close race between our winner and runner up; it ended up being the judge’s opinion on the winning write-up.
+"In total we had 10 finalists, all of whom managed to solve every single challenge, including many who solved some of the bonus unintended vulnerabilities which were introduced. Overall, we’ve had hundreds of participants trying out the advent calendar, and superb efforts all around. From our 10 finalists it was an extremely close race between our winner and runner up; it ended up being the judge’s opinion on the winning write-up."
 
 However, out of all 10 finalists, there had to be one winner; To my surprise, it was me!
 
-> Cameron is announced as the winning write-up, congratulations! The level and consistency of the paper was phenomenal to read, and it was fun and interesting to read in every way. Cameron described their process and so much more than just the solution. They detailed the problem at hand and the path to the different solutions. The paper showed great understanding of cyber security challenges, and also made the paper fun and interesting to read. Congratulations!
+> Cameron is announced as the winning write-up, congratulations! The level and consistency of the paper was phenomenal to read, and it was fun and interesting to read in every way. Cameron described their process and so much more than just the solution. They detailed the problem at hand and the path to the different solutions. The paper showed great understanding of cyber security challenges, and also made the paper fun and interesting to read.
 
 
 
@@ -57,6 +57,6 @@ However, out of all 10 finalists, there had to be one winner; To my surprise, it
 
 If you'd like to view my winning write-up, you can do so over at the following link:
 
-<https://www.cameronwickes.co.uk/RSXC-Challenges.pdf >
+[Winning Writeup](<https://www.cameronwickes.co.uk/RSXC-Challenges.pdf)
 
 Looking forward to next year!
