@@ -2,7 +2,7 @@
 title: "In Data We Trust: Leveraging Large Scale Analytics for Intrusion Detection"
 subtitle: GIAC Gold Paper
 category:
-  - Experiences
+  - Research
 author: Cameron Wickes
 date: 2022-04-16T17:04:36.382Z
 featureImage: /uploads/intrusion-detection.png
