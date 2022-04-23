@@ -5,7 +5,7 @@ category:
   - Binary Exploitation
   - ROP
 author: Cameron Wickes
-date: 2020-04-10T06:30:14.878Z
+date: 2020-04-22T06:30:14.878Z
 featureImage: /uploads/movaps.jpg
 ---
 *Whilst on my quest to discover the difference in x86 and x86-64 binaries, I came across a ROP challenge which required the stack to be aligned properly for the exploit to complete. Having not come across a problem like this before, I had a look online to see if I could understand the problem further, but there seemed to be no concise explanation of how and why these issues fit together.  I’ve therefore compiled a short series of explanations about the MOVAPS issue, stack alignment and how a ROP chain may violate the rules set by certain instructions.*
