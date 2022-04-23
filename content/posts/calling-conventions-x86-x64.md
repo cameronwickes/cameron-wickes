@@ -4,7 +4,7 @@ subtitle: What are they and why is it relevant?
 category:
   - Binary Exploitation
 author: Cameron Wickes
-date: 2020-04-10T11:26:53.700Z
+date: 2020-03-08T12:26:53.700Z
 featureImage: /uploads/markus-spiske-1llh8k2_yfk-unsplash.jpg
 ---
 *Transitioning from 32-bit to 64-bit binary exploitation is a bit of a challenge, especially if you haven’t got your head around the differences in registers and calling conventions. In this article, I aim to address these variations, so you can understand what you need to do differently when dealing with the respective architectures.*
