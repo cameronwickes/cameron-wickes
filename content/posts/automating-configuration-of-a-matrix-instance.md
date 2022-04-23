@@ -1,5 +1,5 @@
 ---
-title: Automating Synapse & Matrix Instances
+title: Automating Synapse & Matrix Instances for Organisational Use
 subtitle: Creating secure organisational communication channels within existing
   business infrastructure
 category:
