@@ -24,7 +24,7 @@ A better solution would be to utilise the federation servers Synapse has been co
 
 
 
-The API, built with Docker and FastAPI, allows Matrix user directory searches to be recursively federated for corporate use. It performs the following seqquence of actions to do this:
+The API, built with Docker and FastAPI, allows Matrix user directory searches to be recursively federated for corporate use. It performs the following sequence of actions to do this:
 
 * Checks the validity of API supplied credentials
 * Checks the validity of a user specified authorisation token against all federation domains
@@ -35,7 +35,11 @@ The API, built with Docker and FastAPI, allows Matrix user directory searches to
 
 
 
-It is available in a range of formats at the following links:
+To achieve this, the API needs to be running, and the Synapse NGINX/Apache Reverse Proxy should be configured to point requests to the URL `/_matrix/client/r0/user_directory/search` to the extender running on port 8060.
+
+
+
+MA1SD-Extender is available in a range of formats. To learn more, click on one of the following links:
 
 [Docker/Podman image on the Docker Hub](https://hub.docker.com/repository/docker/cameronwickes/ma1sd-extender)
 
