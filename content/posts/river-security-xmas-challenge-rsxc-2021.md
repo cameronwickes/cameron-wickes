@@ -40,7 +40,7 @@ I had a blast completing these daily challenges, and will certainly participate 
 
 "In total we had 10 finalists, all of whom managed to solve every single challenge, including many who solved some of the bonus unintended vulnerabilities which were introduced. Overall, we’ve had hundreds of participants trying out the advent calendar, and superb efforts all around. From our 10 finalists it was an extremely close race between our winner and runner up; it ended up being the judge’s opinion on the winning write-up."
 
-However, out of all 10 finalists, there had to be one winner; To my surprise, it was me!
+However, out of all 10 finalists, there had to be one winner.
 
 > Cameron is announced as the winning write-up, congratulations! The level and consistency of the paper was phenomenal to read, and it was fun and interesting to read in every way. Cameron described their process and so much more than just the solution. They detailed the problem at hand and the path to the different solutions. The paper showed great understanding of cyber security challenges, and also made the paper fun and interesting to read.
 
