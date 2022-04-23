@@ -1,5 +1,5 @@
 ---
-title: "FoxHunter: Extracting Firefox Artifacts"
+title: "FoxHunter: Extracting Firefox Artifacts For Forensic Purposes"
 subtitle: Extracting, analysing, attacking, and dumping Firefox browser
   artifacts on Linux platforms for forensic purposes
 category:
