@@ -1,5 +1,5 @@
 ---
-title: Automating Configuration of a Matrix Instance
+title: Automating Synapse & Matrix Instances
 subtitle: Creating secure organisational communication channels within existing
   business infrastructure
 category:
