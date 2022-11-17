@@ -6,7 +6,7 @@ category:
   - Tools
 author: Cameron Wickes
 date: 2022-04-16T17:22:42.045Z
-featureImage: /uploads/new-project-1-.png
+featureImage: /uploads/new-project-1-.jpg
 ---
 *The Internet is one of the most ubiquitous technologies in use today, with over 4.95 billion users and 1,167,715,133 websites as of January 2022. To access this vast web of Internet content in circulation, consumers must use a web browser. Which browser a consumer chooses to utilise is often a personal preference. Still, the most popular options are Chrome, Safari, and Firefox on Windows, macOS, and Linux platforms, with most modern Linux distributions shipping with Mozilla Firefox as the default.* 
 
