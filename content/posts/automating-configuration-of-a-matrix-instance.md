@@ -6,7 +6,7 @@ category:
   - Research
 author: Cameron Wickes
 date: 2022-04-23T13:32:46.271Z
-featureImage: /uploads/matrix.png
+featureImage: /uploads/matrix.jpg
 ---
 *The Matrix project has attracted a lot of attention in recent years, as it allows decentralised and federated communications to occur across a range of devices including Web, iOS, and Android platforms. It has support for a variety of features including end-to-end encrypted messaging, video calling and VoIP, leading to mass adoption within the United States Armed Forces and German Military.*
 
