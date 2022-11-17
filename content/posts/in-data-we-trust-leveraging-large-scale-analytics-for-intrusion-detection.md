@@ -5,7 +5,7 @@ category:
   - Research
 author: Cameron Wickes
 date: 2021-12-30T12:27:18.683Z
-featureImage: /uploads/intrusion-detection-2.png
+featureImage: /uploads/intrusion-detection-2.jpg
 ---
 *Recently, the GIAC GCIA Gold Paper I have been working on for 6 months got approved and published in the SANS Reading Room. This is the first of two papers I aim to publish before I reach the end of University, with the other hopefully coming soon!* 
 
